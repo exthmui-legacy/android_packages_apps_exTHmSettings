@@ -65,4 +65,9 @@
 
     <string name="face_auto_unlock_title">面部识别自动解锁</string>
     <string name="face_auto_unlock_summary">面部识别后自动解除锁屏</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">网速显示</string>
+    <string name="network_traffic_state_summary">在状态栏显示网速</string>
+    <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
 </resources>
