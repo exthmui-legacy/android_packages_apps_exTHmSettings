@@ -51,9 +51,9 @@
     <string name="powermenu_airplane">飞行模式</string>
     <string name="powermenu_settings">设置</string>
     <string name="powermenu_lockdown">锁定</string>
-    <string name="powermenu_soundpanel">音量面板</string>
     <string name="powermenu_users">用户切换</string>
     <string name="powermenu_logout">注销</string>
+    <string name="powermenu_torch">手电筒</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
