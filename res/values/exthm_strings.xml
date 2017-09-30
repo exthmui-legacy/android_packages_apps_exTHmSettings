@@ -132,4 +132,7 @@
     <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage and battery temperature on lockscreen while charging</string>
 </resources>
