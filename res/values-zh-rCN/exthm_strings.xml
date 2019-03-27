@@ -70,4 +70,6 @@
     <string name="network_traffic_state_title">网速显示</string>
     <string name="network_traffic_state_summary">在状态栏显示网速</string>
     <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
+    <string name="network_traffic_hidearrow_summary">隐藏网速指示箭头</string>
 </resources>
