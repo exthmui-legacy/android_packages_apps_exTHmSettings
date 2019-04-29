@@ -37,6 +37,14 @@
         android:summary="@string/animation_summary"
         android:fragment="org.exthmui.settings.fragments.ui.Animations" />
 
+    <!-- Display cutout options -->
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:icon="@drawable/ic_cutout"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="org.exthmui.settings.fragments.ui.DisplayCutoutForceFullscreenSettings" />
+
     <!-- Rounded Corners -->
     <PreferenceScreen
         android:key="rounded_corners"

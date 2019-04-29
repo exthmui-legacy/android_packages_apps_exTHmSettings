@@ -201,6 +201,10 @@
     <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
     <string name="lockscreen_solid_units_opacity_title">Solid lines opacity</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
     <!-- Lockscreen tap-to sleep -->
     <string name="double_tap_sleep_anywhere_title">Tap to sleep</string>
     <string name="double_tap_sleep_anywhere_summary">Double-tap anywhere on the lockscreen to put device asleep</string>

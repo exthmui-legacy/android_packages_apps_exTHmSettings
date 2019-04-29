@@ -199,6 +199,10 @@
     <string name="lockscreen_solid_fudge_factor_title">清晰等级</string>
     <string name="lockscreen_solid_units_opacity_title">实线不透明度</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全屏应用</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略全面屏上缘</string>
+
     <!-- Lockscreen tap-to sleep -->
     <string name="double_tap_sleep_anywhere_title">双击锁屏界面休眠</string>
     <string name="double_tap_sleep_anywhere_summary">双击锁屏界面任何位置使设备休眠</string>
