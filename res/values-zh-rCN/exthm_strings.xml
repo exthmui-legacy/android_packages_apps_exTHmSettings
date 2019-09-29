@@ -320,4 +320,8 @@
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">数据禁用指示器</string>
     <string name="data_disabled_icon_summary">当数据禁用时显示信号图标旁边的交叉标志</string>
+
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">电池信息</string>
+    <string name="lockscreen_battery_info_summary">充电时显示电池信息</string>
 </resources>
