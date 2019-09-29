@@ -126,6 +126,16 @@
     <string name="torch_long_press_power_timeout_5min">5 分钟</string>
     <string name="torch_long_press_power_timeout_10min">10 分钟</string>
 
+    <!-- Lockscreen categories -->
+    <string name="lockscreen_shortcuts_category">快捷方式</string>
+    <string name="lockscreen_interface_category">界面</string>
+    <string name="lockscreen_clockdate_category">时钟和日期</string>
+    <string name="lockscreen_misc_category">杂项</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">媒体封面</string>
+    <string name="media_art_summary">可用时显示媒体封面</string>
+
     <!-- Power menu -->
     <string name="power_menu_title">电源菜单</string>
     <string name="power_menu_summary">自定义电源菜单选项</string>

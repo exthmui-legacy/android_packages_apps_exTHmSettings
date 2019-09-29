@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 Nitrogen Project
+     Copyright (C) 2016-2019 crDroid Android Project
+     Copyright (C) 2020 The exTHmUI OpenSource Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,6 +18,19 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     android:title="@string/lockscreen_title" >
 
+    <PreferenceCategory
+        android:key="lockscreen_interface_category"
+        android:title="@string/lockscreen_interface_category">
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:icon="@drawable/ic_movie"
+            android:title="@string/media_art_title"
+            android:summary="@string/media_art_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
