@@ -54,7 +54,15 @@ import org.lineageos.internal.util.FileUtils;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
 
-    public static final String TAG = "StatusBarSettings";
+    public static final String TAG = "StatusBar";
+
+    private static final String KEY_SHOW_DATA_DISABLED = "data_disabled_icon";
+    private static final String KEY_SHOW_FOURG = "show_fourg_icon";
+    private static final String KEY_SHOW_ROAMING = "roaming_indicator_icon";
+
+    private SwitchPreference mDataDisabled;
+    private SwitchPreference mShowFourg;
+    private SwitchPreference mShowRoaming;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,6 +74,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
+        mDataDisabled = (SwitchPreference) findPreference(KEY_SHOW_DATA_DISABLED);
+        mShowFourg = (SwitchPreference) findPreference(KEY_SHOW_FOURG);
+        mShowRoaming = (SwitchPreference) findPreference(KEY_SHOW_ROAMING);
+
+        if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(mDataDisabled);
+            prefScreen.removePreference(mShowFourg);
+            prefScreen.removePreference(mShowRoaming);
+        }
     }
 
     @Override
@@ -75,6 +92,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+
+        Settings.System.putIntForUser(resolver,
+                Settings.System.DATA_DISABLED_ICON, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.ROAMING_INDICATOR_ICON, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.SHOW_FOURG_ICON, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
@@ -102,6 +126,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
+
+                    if (!TelephonyUtils.isVoiceCapable(context)) {
+                        keys.add(KEY_SHOW_DATA_DISABLED);
+                        keys.add(KEY_SHOW_FOURG);
+                        keys.add(KEY_SHOW_ROAMING);
+                    }
 
                     return keys;
                 }

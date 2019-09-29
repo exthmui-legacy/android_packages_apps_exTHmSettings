@@ -312,4 +312,19 @@
     <!-- Toast icon -->
     <string name="toast_icon_title">Toast icon</string>
     <string name="toast_icon_summary">Display icon of activity that generates toast message</string>
+
+    <!-- Statusbar categories -->
+    <string name="status_bar_icons_category_title">Icons</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">Data disabled indicator</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal icon when data is disabled</string>
 </resources>
