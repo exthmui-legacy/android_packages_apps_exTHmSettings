@@ -136,6 +136,10 @@
     <string name="media_art_title">媒体封面</string>
     <string name="media_art_summary">可用时显示媒体封面</string>
 
+    <!-- Navigation Bar -->
+    <string name="navbar_visibility">导航栏</string>
+    <string name="navbar_visibility_summary">切换导航栏的可见性</string>
+
     <!-- Power menu -->
     <string name="power_menu_title">电源菜单</string>
     <string name="power_menu_summary">自定义电源菜单选项</string>
