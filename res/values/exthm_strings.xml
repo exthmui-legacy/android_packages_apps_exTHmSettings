@@ -181,6 +181,20 @@
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 
+    <!-- Lockscreen categories -->
+    <string name="lockscreen_shortcuts_category">Shortcuts</string>
+    <string name="lockscreen_interface_category">Interface</string>
+    <string name="lockscreen_clockdate_category">Clock &amp; date</string>
+    <string name="lockscreen_misc_category">Miscellaneous</string>
+    
+    <!-- Media art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Display media cover art when available</string>
+
+    <!-- Navigation Bar -->
+    <string name="navbar_visibility">Navigation bar</string>
+    <string name="navbar_visibility_summary">Toggle navigation bar visibility</string>
+
     <!-- Power Menu -->
     <string name="power_menu_title">Power Menu</string>
     <string name="power_menu_summary">Customize power menu options</string>
