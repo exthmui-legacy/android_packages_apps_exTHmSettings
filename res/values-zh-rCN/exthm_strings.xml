@@ -324,4 +324,12 @@
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">电池信息</string>
     <string name="lockscreen_battery_info_summary">充电时显示电池信息</string>
+
+    <!-- Disable HW keys -->
+    <string name="hwkeys_disabled_title">禁用实体按键</string>
+    <string name="hwkeys_disabled_summary">启用此功能将禁用用于导航的实体按键</string>
+
+    <!-- ANBI -->
+    <string name="anbi_title">误触</string>
+    <string name="anbi_summary">当触摸屏幕时防止和导航按键交互</string>
 </resources>
