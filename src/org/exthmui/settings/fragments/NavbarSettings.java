@@ -38,6 +38,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.exthmui.Utils;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.navigation.StockNavBarSettings;
 import org.exthmui.settings.preferences.CustomSeekBarPreference;
 
 import java.util.List;
@@ -104,6 +105,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = mContext.getContentResolver();
         LineageSettings.System.putIntForUser(resolver, LineageSettings.System.FORCE_SHOW_NAVBAR,
              Utils.hasNavbarByDefault(mContext) ? 1 : 0, UserHandle.USER_CURRENT);
+        StockNavBarSettings.reset(mContext);
     }
 
     @Override
