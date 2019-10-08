@@ -29,4 +29,42 @@
         android:title="@string/navbar_visibility"
         android:summary="@string/navbar_visibility_summary" />
 
+    <Preference
+        android:key="stock_settings"
+        android:icon="@drawable/ic_shapes"
+        android:title="@string/navbar_settings_title"
+        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
+        android:dependency="navbar_visibility"
+        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
+
+    <!-- Gestures -->
+    <PreferenceCategory
+        android:key="navbar_gestures_category"
+        android:title="@string/gestures_title">
+
+        <org.lineageos.internal.lineageparts.LineagePartsPreference
+            android:key="touchscreen_gesture_settings"
+            android:icon="@drawable/ic_double_tap"
+            lineage:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES" />
+
+        <lineageos.preference.RemotePreference
+            android:key="device_touchscreen_gesture_settings"
+            android:icon="@drawable/ic_double_tap"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            lineage:replacesKey="touchscreen_gesture_settings"
+            lineage:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
+                <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
+        </lineageos.preference.RemotePreference>
+
+        <Preference
+            android:key="system_gesture_settings"
+            android:icon="@drawable/ic_settings_gestures"
+            android:title="@string/system_gestures_title"
+            android:summary="@string/system_gestures_summary"
+            android:fragment="com.android.settings.gestures.GestureSettings"
+            settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
