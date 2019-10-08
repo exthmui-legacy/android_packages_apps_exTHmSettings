@@ -312,6 +312,27 @@
 
     <!-- Statusbar categories -->
     <string name="status_bar_icons_category_title">图标</string>
+    
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_title">时钟和日期</string>
+    <string name="status_bar_clock_summary">自定义时钟和日期</string>
+    <string name="status_bar_clock_seconds_title">时钟秒数</string>
+    <string name="status_bar_clock_seconds_summary">在状态栏中显示时钟旁边的秒数</string>
+    <string name="status_bar_clock_position_title">时钟样式</string>
+    <string name="status_bar_clock_position_right">右侧</string>
+    <string name="status_bar_clock_position_left">左侧</string>
+    <string name="status_bar_clock_position_center">居中</string>
+    <string name="status_bar_clock_position_hidden">隐藏</string>
+    <string name="status_bar_clock_auto_hide_title">自动隐藏</string>
+    <string name="status_bar_clock_auto_hide_summary">定期隐藏和显示时钟以节省状态栏空间</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">隐藏持续时间</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">隐藏时钟的秒数</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">显示持续时间</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">隐藏时钟前等待的秒数</string>
+
+    <!-- Status bar - icon blacklist -->
+    <string name="status_bar_icons_title">状态栏图标</string>
+    <string name="status_bar_icons_summary">控制状态栏显示的图标</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G 图标</string>
