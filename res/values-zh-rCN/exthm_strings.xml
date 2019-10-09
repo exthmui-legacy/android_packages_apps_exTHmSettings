@@ -330,6 +330,30 @@
     <string name="status_bar_clock_auto_hide_sdur_title">显示持续时间</string>
     <string name="status_bar_clock_auto_hide_sdur_summary">隐藏时钟前等待的秒数</string>
 
+    <string name="status_bar_am_pm_title">上午/下午样式</string>
+    <string name="status_bar_am_pm_info">启用 24 小时制</string>
+    <string name="status_bar_am_pm_normal">正常</string>
+    <string name="status_bar_am_pm_small">小号</string>
+    <string name="status_bar_am_pm_hidden">隐藏</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_date_title">日期</string>
+    <string name="status_bar_date_none">隐藏 (默认)</string>
+    <string name="status_bar_date_small">小号</string>
+    <string name="status_bar_date_normal">正常</string>
+    <string name="status_bar_date_format_title">日期格式</string>
+    <string name="status_bar_date_style">日期样式</string>
+    <string name="status_bar_date_style_normal">正常</string>
+    <string name="status_bar_date_style_lowercase">小写字母</string>
+    <string name="status_bar_date_style_uppercase">大写字母</string>
+    <string name="status_bar_date_format_custom">自定义 java 格式</string>
+    <string name="status_bar_date_string_edittext_title">日期格式必须如：MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">输入字符串</string>
+
+    <string name="clock_date_position">日期位置</string>
+    <string name="clock_date_right">位于时间右侧</string>
+    <string name="clock_date_left">位于时间左侧</string>
+
     <!-- Status bar - icon blacklist -->
     <string name="status_bar_icons_title">状态栏图标</string>
     <string name="status_bar_icons_summary">控制状态栏显示的图标</string>

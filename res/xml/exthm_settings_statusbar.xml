@@ -40,6 +40,13 @@
             android:entryValues="@array/status_bar_clock_position_values"
             android:defaultValue="2" />
 
+        <Preference
+            android:key="clock"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/status_bar_clock_title"
+            android:summary="@string/status_bar_clock_summary"
+            android:fragment="org.exthmui.settings.fragments.statusbar.Clock" />
+
         <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:icon="@drawable/ic_network"
