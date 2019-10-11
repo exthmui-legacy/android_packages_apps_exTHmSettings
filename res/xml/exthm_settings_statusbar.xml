@@ -47,6 +47,13 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="org.exthmui.settings.fragments.statusbar.Clock" />
 
+        <PreferenceScreen
+            android:key="network_traffic_settings"
+            android:icon="@drawable/ic_traffic"
+            android:title="@string/network_traffic_settings_title"
+            android:summary="@string/network_traffic_settings_summary"
+            android:fragment="org.exthmui.settings.fragments.statusbar.NetworkTrafficSettings" />
+
         <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:icon="@drawable/ic_network"

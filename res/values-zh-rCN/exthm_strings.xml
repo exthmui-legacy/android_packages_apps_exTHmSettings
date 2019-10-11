@@ -37,6 +37,11 @@
     <string name="cancel">取消</string>
     <string name="save">保存</string>
 
+    <!-- Units -->
+    <string name="unit_seconds">秒</string>
+    <string name="unit_milliseconds">毫秒</string>
+    <string name="unit_pixels">dp</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">颜色选择器</string>
     <string name="press_color_to_apply">点选以应用下列颜色</string>
@@ -386,4 +391,32 @@
     <string name="anbi_title">误触</string>
     <string name="anbi_summary">当触摸屏幕时防止和导航按键交互</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_settings_title">网络流量监视器</string>
+    <string name="network_traffic_settings_summary">自定义并显示当前流量级别</string>
+    <string name="network_traffic_location_title">位置</string>
+    <string name="network_traffic_location_disable">禁用</string>
+    <string name="network_traffic_location_statusbar">状态栏</string>
+    <string name="network_traffic_location_quick_statusbar">快速状态栏</string>
+    <string name="network_traffic_mode_title">显示模式</string>
+    <string name="network_traffic_mode_up">仅限上传</string>
+    <string name="network_traffic_mode_down">仅限下载</string>
+    <string name="network_traffic_mode_all">上传和下载</string>
+    <string name="network_traffic_autohide">自动隐藏</string>
+    <string name="network_traffic_autohide_summary">网络不活跃时隐藏状态栏网速图标</string>
+    <string name="network_traffic_autohide_kilobits">千位/秒</string>
+    <string name="network_traffic_autohide_threshold">网络流量隐藏阈值</string>
+    <string name="network_traffic_show_units">显示单位</string>
+    <string name="network_traffic_show_units_summary">是否显示流量计量单位</string>
+    <string name="network_traffic_units_title">流量计量单位</string>
+    <string name="network_traffic_units_bits">每秒比特数 (b/s)</string>
+    <string name="network_traffic_units_kilobits">每秒千比特数 (kb/s)</string>
+    <string name="network_traffic_units_megabits">每秒兆比特数 (Mb/s)</string>
+    <string name="network_traffic_units_bytes">每秒字节数 (B/s)</string>
+    <string name="network_traffic_units_kilobytes">每秒千字节数 (kB/s)</string>
+    <string name="network_traffic_units_megabytes">每秒兆字节数 (MB/s)</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
+    <string name="network_traffic_hidearrow_summary">隐藏流量监控中的箭头</string>
+    <string name="network_traffic_refresh_interval_title">刷新间隔</string>
+    <string name="network_traffic_refresh_interval_summary">网速显示持续时间</string>
 </resources>

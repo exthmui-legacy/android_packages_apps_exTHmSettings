@@ -40,6 +40,7 @@ import com.android.settings.search.Indexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.statusbar.Clock;
+import org.exthmui.settings.fragments.statusbar.NetworkTrafficSettings;
 import org.exthmui.settings.preferences.SystemSettingListPreference;
 import org.exthmui.settings.preferences.colorpicker.ColorPickerPreference;
 import org.exthmui.settings.utils.TelephonyUtils;
@@ -129,6 +130,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.SHOW_FOURG_ICON, 0, UserHandle.USER_CURRENT);
         Clock.reset(mContext);
+        NetworkTrafficSettings.reset(mContext);
     }
 
     @Override
