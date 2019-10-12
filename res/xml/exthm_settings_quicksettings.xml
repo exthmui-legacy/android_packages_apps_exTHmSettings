@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 Nitrogen Project
+     Copyright (C) 2016-2019 crDroid Android Project
+     Copyright (C) 2020 The exTHmUI OpenSource Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,6 +18,46 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     android:title="@string/quicksettings_title" >
 
+    <PreferenceCategory 
+         android:title="@string/qs_tiles_category">
+
+        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:icon="@drawable/ic_text"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:summary="@string/qs_tile_title_visibility_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+         android:title="@string/qs_misc_category">
+
+        <!-- QS clock -->
+        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+            android:key="show_qs_clock"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/qs_clock_title"
+            android:summary="@string/qs_clock_summary"
+            android:defaultValue="true" />
+
+        <!-- QS Brightness Slider position -->
+        <lineageos.preference.LineageSecureSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/qs_brightness_slider_title"
+            android:entries="@array/qs_brightness_slider_entries"
+            android:entryValues="@array/qs_brightness_slider_values"
+            android:defaultValue="1" />
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:icon="@drawable/ic_brightness_auto"
+            android:title="@string/brightness_icon_title"
+            android:summary="@string/brightness_icon_summary"
+            lineage:requiresConfig="@*android:bool/config_automatic_brightness_available"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>

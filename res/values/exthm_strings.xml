@@ -179,4 +179,32 @@
     <string name="gestures_summary">Customize gesture settings</string>
     <string name="system_gestures_title">System gestures</string>
     <string name="system_gestures_summary">Customize other gesture settings</string>
+
+    <!-- Quick setting categories -->
+    <string name="qs_tiles_category">Tiles</string>
+    <string name="qs_toggles_category">Toggles</string>
+    <string name="qs_misc_category">Miscellaneous</string>
+    <string name="qs_footer_category">Footer</string>
+
+    <!-- QS Tile -->
+    <string name="qs_tile_title_visibility_title">Tile title</string>
+    <string name="qs_tile_title_visibility_summary">Display title below each tile</string>
+
+    <!-- QS clock -->
+    <string name="qs_clock_title">Clock</string>
+    <string name="qs_clock_summary">Display clock in quick status bar header</string>
+
+    <!-- QS Brightness Slider position -->
+    <string name="qs_brightness_slider_hide">Hide</string>
+    <string name="qs_brightness_slider_top">Top</string>
+    <string name="qs_brightness_slider_bottom">Bottom</string>
+
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Auto brightness</string>
+    <string name="brightness_icon_summary">Show toggle for adaptive brightness near the slider</string>
+
 </resources>
