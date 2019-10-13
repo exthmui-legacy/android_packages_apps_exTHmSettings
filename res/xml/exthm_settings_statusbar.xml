@@ -77,6 +77,19 @@
 
     </PreferenceCategory>
 
+    <!-- Status bar battery customizations -->
+    <PreferenceCategory
+        android:title="@string/status_bar_battery_category_title">
+        <!-- Battery bar -->
+        <PreferenceScreen
+            android:key="batterybar"
+            android:icon="@drawable/ic_car_battery"
+            android:title="@string/battery_bar_title"
+            android:summary="@string/battery_bar_summary"
+            android:fragment="org.exthmui.settings.fragments.statusbar.BatteryBar" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:title="@string/gestures_title">
 

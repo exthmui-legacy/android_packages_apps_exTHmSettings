@@ -39,6 +39,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.statusbar.BatteryBar;
 import org.exthmui.settings.fragments.statusbar.Clock;
 import org.exthmui.settings.fragments.statusbar.NetworkTrafficSettings;
 import org.exthmui.settings.preferences.SystemSettingListPreference;
@@ -129,6 +130,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 Settings.System.ROAMING_INDICATOR_ICON, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.SHOW_FOURG_ICON, 0, UserHandle.USER_CURRENT);
+        BatteryBar.reset(mContext);
         Clock.reset(mContext);
         NetworkTrafficSettings.reset(mContext);
     }

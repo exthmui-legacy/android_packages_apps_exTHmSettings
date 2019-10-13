@@ -317,6 +317,7 @@
 
     <!-- Statusbar categories -->
     <string name="status_bar_icons_category_title">图标</string>
+    <string name="status_bar_battery_category_title">电池自定义</string>
     
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">时钟和日期</string>
@@ -419,4 +420,30 @@
     <string name="network_traffic_hidearrow_summary">隐藏流量监控中的箭头</string>
     <string name="network_traffic_refresh_interval_title">刷新间隔</string>
     <string name="network_traffic_refresh_interval_summary">网速显示持续时间</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">电量栏</string>
+    <string name="battery_bar_summary">显示并自定义电量栏</string>
+    <string name="battery_bar">位置</string>
+    <string name="battery_bar_no_navbar">位置</string>
+    <string name="battery_bar_location_hide">隐藏</string>
+    <string name="battery_bar_location_statusbar">状态栏</string>
+    <string name="battery_bar_location_top_navbar">导航栏顶部</string>
+    <string name="battery_bar_location_bottom_navbar">导航栏底部</string>
+    <string name="battery_bar_color">颜色</string>
+    <string name="battery_bar_charging_color">充电颜色</string>
+    <string name="battery_bar_battery_low_color">低电量颜色</string>
+    <string name="battery_bar_cat">样式</string>
+    <string name="battery_bar_style_title">对齐</string>
+    <string name="battery_bar_thickness_title">厚度</string>
+    <string name="battery_bar_animate_title">充电动画</string>
+    <string name="battery_bar_style_regular">常规</string>
+    <string name="battery_bar_style_center_mirrored">居中</string>
+    <string name="battery_bar_style_reversed">反转</string>
+    <string name="battery_bar_use_charging_color">自定义充电颜色</string>
+    <string name="battery_bar_blend_color_title">混合颜色</string>
+    <string name="battery_bar_blend_color_summary">根据电量百分比混合满/空颜色</string>
+    <string name="battery_bar_blend_color_reverse_title">反转颜色方向</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">满 →空： 红 ← 绿 ← 蓝 ← 红</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">满 →空： 红→  绿→  蓝 → 红</string>
 </resources>

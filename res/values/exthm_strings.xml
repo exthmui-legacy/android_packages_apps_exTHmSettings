@@ -324,6 +324,7 @@
 
     <!-- Statusbar categories -->
     <string name="status_bar_icons_category_title">Icons</string>
+    <string name="status_bar_battery_category_title">Battery customizations</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Clock &amp; date</string>
@@ -427,4 +428,29 @@
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
 
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar_summary">Display and customize battery bar above status bar</string>
+    <string name="battery_bar">Location</string>
+    <string name="battery_bar_no_navbar">Location</string>
+    <string name="battery_bar_location_hide">Hide</string>
+    <string name="battery_bar_location_statusbar">Statusbar</string>
+    <string name="battery_bar_location_top_navbar">Top of navbar</string>
+    <string name="battery_bar_location_bottom_navbar">Bottom of navbar</string>
+    <string name="battery_bar_color">Color</string>
+    <string name="battery_bar_charging_color">Charging color</string>
+    <string name="battery_bar_battery_low_color">Low battery color</string>
+    <string name="battery_bar_cat">Style</string>
+    <string name="battery_bar_style_title">Alignment</string>
+    <string name="battery_bar_thickness_title">Thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_style_regular">Regular</string>
+    <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
+    <string name="battery_bar_style_reversed">Reversed</string>
+    <string name="battery_bar_use_charging_color">Custom charging color</string>
+    <string name="battery_bar_blend_color_title">Blend colors</string>
+    <string name="battery_bar_blend_color_summary">Blend full/empty colors corresponding to battery percentage</string>
+    <string name="battery_bar_blend_color_reverse_title">Reverse color direction</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
 </resources>
