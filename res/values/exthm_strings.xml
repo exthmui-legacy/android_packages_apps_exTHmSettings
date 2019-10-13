@@ -207,4 +207,8 @@
     <string name="brightness_icon_title">Auto brightness</string>
     <string name="brightness_icon_summary">Show toggle for adaptive brightness near the slider</string>
 
+    <!-- Screenshot Sound  -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Play sound when screenshot is taken</string>
+
 </resources>

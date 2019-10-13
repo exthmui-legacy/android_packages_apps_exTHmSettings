@@ -16,6 +16,20 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     android:title="@string/sound_title" >
+
+    <!-- Custom charging sounds -->
+    <org.lineageos.internal.lineageparts.LineagePartsPreference
+      android:icon="@drawable/ic_charger"
+      android:key="charging_sounds_settings"/>
+
+    <!-- Screenshot Sound  -->
+    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+        android:key="screenshot_sound"
+        android:icon="@drawable/ic_screenshot"
+        android:title="@string/screenshot_sound_title"
+        android:summary="@string/screenshot_sound_summary"
+        android:defaultValue="true" />
 
 </PreferenceScreen>
