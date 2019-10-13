@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016-2019 crDroid Android Project
+     Copyright (C) 2020 The exTHmUI OpenSource Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/animation_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceScreen
+        android:key="system_animation"
+        android:title="@string/system_animation_title"
+        android:summary="@string/system_animation_summary"
+        android:fragment="org.exthmui.settings.fragments.ui.AnimationControls" />
+
+    <ListPreference
+        android:key="listview_animation"
+        android:dialogTitle="@string/listview_animation_title"
+        android:title="@string/listview_animation_title"
+        android:entries="@array/listview_animation_entries"
+        android:entryValues="@array/listview_animation_values"
+        android:defaultValue="0" />
+
+    <ListPreference
+        android:key="listview_interpolator"
+        android:dialogTitle="@string/listview_interpolator_title"
+        android:title="@string/listview_interpolator_title"
+        android:entries="@array/listview_interpolator_entries"
+        android:entryValues="@array/listview_interpolator_values"
+        android:defaultValue="0" />
+
+    <ListPreference
+        android:key="toast_animation"
+        android:title="@string/toast_animation_title"
+        android:entries="@array/toast_animation_entries"
+        android:entryValues="@array/toast_animation_values"
+        android:defaultValue="1" />
+
+    <org.exthmui.settings.preferences.SystemSettingListPreference
+        android:key="anim_tile_style"
+        android:dialogTitle="@string/qs_tile_animation_style_title"
+        android:title="@string/qs_tile_animation_style_title"
+        android:entries="@array/qs_tile_animation_style_entries"
+        android:entryValues="@array/qs_tile_animation_style_values"
+        android:defaultValue="0" />
+
+    <org.exthmui.settings.preferences.SystemSettingListPreference
+        android:key="anim_tile_duration"
+        android:dialogTitle="@string/qs_tile_animation_duration_title"
+        android:title="@string/qs_tile_animation_duration_title"
+        android:entries="@array/qs_tile_animation_duration_entries"
+        android:entryValues="@array/qs_tile_animation_duration_values"
+        android:defaultValue="2000" />
+
+    <org.exthmui.settings.preferences.SystemSettingListPreference
+        android:key="anim_tile_interpolator"
+        android:dialogTitle="@string/qs_tile_animation_interpolator_title"
+        android:title="@string/qs_tile_animation_interpolator_title"
+        android:entries="@array/qs_tile_animation_interpolator_entries"
+        android:entryValues="@array/qs_tile_animation_interpolator_values"
+        android:defaultValue="0" />
+
+    <ListPreference
+        android:key="pref_scrollingcache"
+        android:dialogTitle="@string/pref_scrollingcache_title"
+        android:title="@string/pref_scrollingcache_title"
+        android:entries="@array/scrollingcache_entries"
+        android:entryValues="@array/scrollingcache_values"
+        android:defaultValue="1" />
+
+</PreferenceScreen>

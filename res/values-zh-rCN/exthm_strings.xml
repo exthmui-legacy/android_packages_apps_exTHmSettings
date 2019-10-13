@@ -203,4 +203,102 @@
     <!-- Screenshot Sound  -->
     <string name="screenshot_sound_title">截图提示音</string>
     <string name="screenshot_sound_summary">截图时提示音效</string>
+
+    <!-- Animations -->
+    <string name="animation_title">动画</string>
+    <string name="animation_summary">自定义各种动画</string>
+
+    <!-- Force disable transition animation -->
+    <string name="disable_transition_animations_title">禁用过渡动画</string>
+    <string name="disable_transition_animations_summary">强制禁用所有过渡动画</string>
+
+    <!-- Custom System Animations -->
+    <string name="system_animation_title">系统动画</string>
+    <string name="system_animation_summary">自定义系统中每个窗口的动画</string>
+    <string name="activity_open_title">活动项打开动画</string>
+    <string name="activity_close_title">活动项关闭动画</string>
+    <string name="task_open_title">任务打开动画</string>
+    <string name="task_open_behind_title">任务后台打开动画</string>
+    <string name="task_close_title">任务关闭动画</string>
+    <string name="task_move_to_front_title">切换到前台动画</string>
+    <string name="task_move_to_back_title">移动到后台动画</string>
+    <string name="wallpaper_open_title">壁纸打开动画</string>
+    <string name="wallpaper_close_title">壁纸关闭动画</string>
+    <string name="wallpaper_intra_open_title">壁纸内打开动画</string>
+    <string name="wallpaper_intra_close_title">壁纸内关闭动画</string>
+    <string name="animation_duration_title">动画持续时间</string>
+    <string name="animation_duration_default">默认</string>
+    <string name="animation_duration_custom">自定义</string>
+
+    <!-- Toast Animations -->
+    <string name="toast_animation_title">Toast 通知动画</string>
+    <string name="toast_animation_test">这是一个 Toast 测试</string>
+    <string name="toast_none_animation">无</string>
+    <string name="toast_default_animation">默认</string>
+    <string name="toast_fade_animation">淡入淡出</string>
+    <string name="toast_SlideRight_animation">向右滑动</string>
+    <string name="toast_SlideLeft_animation">向左滑动</string>
+    <string name="toast_Xylon_animation">木质</string>
+    <string name="toast_Toko_animation">东光</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">快速淡入淡出</string>
+    <string name="toast_GrowFade_animation">缓慢淡出淡入</string>
+    <string name="toast_GrowFadeCenter_animation">中心缩放淡入淡出</string>
+    <string name="toast_GrowFadeBottom_animation">从底部淡出淡入</string>
+    <string name="toast_Translucent_animation">半透明</string>
+    <string name="toast_SlideLeftRight_animation">从左向右滑动</string>
+    <string name="toast_SlideRightLeft_animation">从右向左滑动</string>
+
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">QS 瓷砖动画</string>
+    <string name="qs_tile_animation_duration_title">QS 平铺动画持续时间</string>
+    <string name="qs_tile_animation_style_off">无动画</string>
+    <string name="qs_tile_animation_style_flip">翻转</string>
+    <string name="qs_tile_animation_style_rotate">旋转 </string>
+    <string name="qs_tile_animation_duration_low">低</string>
+    <string name="qs_tile_animation_duration_default">默认</string>
+    <string name="qs_tile_animation_duration_fast">快</string>
+
+    <!-- Tiles animation interpolator -->
+    <string name="qs_tile_animation_interpolator_title">瓷块动画插值器</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">线性</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">加速</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">减速</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">先加速后减速</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">弹跳</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">越界</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">预留</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">预留和越界</string>
+
+    <!-- ListView animation -->
+    <string name="listview_animation_title">列表视图动画</string>
+    <string name="listview_off">默认</string>
+    <string name="listview_wave_left">波浪(左)</string>
+    <string name="listview_wave_right">波浪 (右)</string>
+    <string name="listview_alpha">透明度</string>
+    <string name="listview_scale">缩放</string>
+    <string name="listview_stack_top">堆叠 (顶部)</string>
+    <string name="listview_stack_bottom">堆叠 (底部)</string>
+    <string name="listview_unfold">展开</string>
+    <string name="listview_fold">折叠</string>
+    <string name="listview_translate_left">翻转 (左)</string>
+    <string name="listview_translate_right">翻转 (右)</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">列表视图插补器</string>
+    <string name="listview_accelerate_interpolator">加速</string>
+    <string name="listview_decelerate_interpolator">减速</string>
+    <string name="listview_accelerate_decelerate_interpolator">加速后减速</string>
+    <string name="listview_anticipate_interpolator">预留</string>
+    <string name="listview_overshoot_interpolator">越界</string>
+    <string name="listview_anticipate_overshoot_interpolator">预留和越界</string>
+    <string name="listview_bounce_interpolator">弹跳</string>
+
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">滚动缓存</string>
+    <string name="pref_scrollingcache_force_enable">强制开启</string>
+    <string name="pref_scrollingcache_default_enable">默认开启</string>
+    <string name="pref_scrollingcache_default_disable">默认禁用</string>
+    <string name="pref_scrollingcache_force_disable">强制禁用</string>
 </resources>
