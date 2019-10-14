@@ -17,6 +17,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misc_title" >
+    
+    <!-- CPU Info -->
+    <SwitchPreference
+        android:key="show_cpu_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/show_cpu_info"
+        android:summary="@string/show_cpu_info_summary" />
+
+    <!-- Keyboard -->
+    <Preference
+        android:key="ime_settings"
+        android:icon="@drawable/ic_keyboard"
+        android:title="@string/ime_settings_title"
+        android:summary="@string/ime_settings_summary"
+        android:fragment="org.exthmui.settings.fragments.misc.ImeSettings"/>
 
     <!-- Toast Icon -->
     <org.exthmui.settings.preferences.GlobalSettingSwitchPreference

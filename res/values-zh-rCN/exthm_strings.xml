@@ -446,4 +446,18 @@
     <string name="battery_bar_blend_color_reverse_title">反转颜色方向</string>
     <string name="battery_bar_blend_color_reverse_summary_off">满 →空： 红 ← 绿 ← 蓝 ← 红</string>
     <string name="battery_bar_blend_color_reverse_summary_on">满 →空： 红→  绿→  蓝 → 红</string>
+
+    <!-- CPU Info -->
+    <string name="show_cpu_info">显示 CPU 信息</string>
+    <string name="show_cpu_info_summary">悬浮显示 CPU 实时状态信息</string>
+
+    <!-- Keyboard and IME  -->
+    <string name="ime_settings_title">键盘设置</string>
+    <string name="ime_settings_summary">自定义高级键盘设置</string>
+    <string name="ime_switcher_notification_title">输入法选择器通知</string>
+    <string name="ime_switcher_notification_summary">在通知中显示输入法选择器</string>
+    <string name="ime_fullscreen_title">全屏键盘</string>
+    <string name="ime_fullscreen_summary">允许键盘在横屏中全屏显示</string>
+    <string name="ime_show_enter_key_title">显示回车键</string>
+    <string name="ime_show_enter_key_summary">强制键盘显示回车键，而不是表情符号键</string>
 </resources>
