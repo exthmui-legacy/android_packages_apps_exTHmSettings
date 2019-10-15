@@ -460,4 +460,12 @@
     <string name="ime_fullscreen_summary">允许键盘在横屏中全屏显示</string>
     <string name="ime_show_enter_key_title">显示回车键</string>
     <string name="ime_show_enter_key_summary">强制键盘显示回车键，而不是表情符号键</string>
+
+    <!-- Rounded corners -->
+    <string name="corners_title">圆角</string>
+    <string name="corners_summary">允许自定义圆角</string>
+    <string name="corner_radius">圆角半径</string>
+    <string name="content_padding">边角内容填充</string>
+    <string name="status_bar_padding">状态栏附加填充</string>
+    <string name="corner_fwvals">使用默认值</string>
 </resources>

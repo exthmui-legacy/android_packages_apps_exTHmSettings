@@ -44,6 +44,7 @@ import com.android.settings.search.Indexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.ui.Animations;
+import org.exthmui.settings.fragments.ui.RoundedCorners;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,6 +62,7 @@ public class UiSettings extends SettingsPreferenceFragment implements Indexable 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Animations.reset(mContext);
+        RoundedCorners.reset(mContext);
     }
 
     @Override

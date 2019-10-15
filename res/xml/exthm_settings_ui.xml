@@ -28,4 +28,13 @@
         android:title="@string/animation_title"
         android:summary="@string/animation_summary"
         android:fragment="org.exthmui.settings.fragments.ui.Animations" />
+
+    <!-- Rounded Corners -->
+    <PreferenceScreen
+        android:key="rounded_corners"
+        android:icon="@drawable/ic_rounded_corner"
+        android:title="@string/corners_title"
+        android:summary="@string/corners_summary"
+        android:fragment="org.exthmui.settings.fragments.ui.RoundedCorners" />
+
 </PreferenceScreen>

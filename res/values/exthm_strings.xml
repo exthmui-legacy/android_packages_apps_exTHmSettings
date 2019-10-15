@@ -468,4 +468,11 @@
     <string name="ime_show_enter_key_title">Show enter key</string>
     <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
 
+    <!-- Rounded corners -->
+    <string name="corners_title">Rounded corners</string>
+    <string name="corners_summary">Allow customized rounded corners</string>
+    <string name="corner_radius">Rounded corner radius</string>
+    <string name="content_padding">Corner content padding</string>
+    <string name="status_bar_padding">Statusbar extra padding</string>
+    <string name="corner_fwvals">Use default values</string>
 </resources>
