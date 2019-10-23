@@ -39,6 +39,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.lockscreen.LockScreenVisualizer;
 import org.exthmui.settings.preferences.CustomSeekBarPreference;
 import org.exthmui.settings.preferences.SystemSettingListPreference;
 
@@ -70,6 +71,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment
                 LineageSettings.Secure.LOCKSCREEN_MEDIA_METADATA, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_BATTERY_INFO, 1, UserHandle.USER_CURRENT);
+        LockScreenVisualizer.reset(mContext);
     }
 
     @Override

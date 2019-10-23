@@ -21,6 +21,7 @@
     xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     android:title="@string/lockscreen_title" >
 
+
     <PreferenceCategory
         android:key="lockscreen_interface_category"
         android:title="@string/lockscreen_interface_category">
@@ -31,6 +32,13 @@
             android:title="@string/media_art_title"
             android:summary="@string/media_art_summary"
             android:defaultValue="true" />
+
+        <Preference
+            android:key="lockscreen_visualizer"
+            android:icon="@drawable/ic_visualizer"
+            android:title="@string/music_visualizer_title"
+            android:summary="@string/music_visualizer_summary"
+            android:fragment="org.exthmui.settings.fragments.lockscreen.LockScreenVisualizer" />
 
         <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
