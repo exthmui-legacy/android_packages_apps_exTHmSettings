@@ -75,6 +75,13 @@
             android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="true"/>
 
+        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+            android:key="bluetooth_show_battery"
+            android:icon="@drawable/ic_bluetooth_connect"
+            android:title="@string/bluetooth_battery_title"
+            android:summary="@string/bluetooth_battery_summary"
+            android:defaultValue="true"/>
+
     </PreferenceCategory>
 
     <!-- Status bar battery customizations -->
@@ -87,7 +94,6 @@
             android:title="@string/battery_bar_title"
             android:summary="@string/battery_bar_summary"
             android:fragment="org.exthmui.settings.fragments.statusbar.BatteryBar" />
-
     </PreferenceCategory>
 
     <PreferenceCategory

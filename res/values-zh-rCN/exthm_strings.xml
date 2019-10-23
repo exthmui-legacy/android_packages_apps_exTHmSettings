@@ -391,6 +391,10 @@
     <string name="data_disabled_icon_title">数据禁用指示器</string>
     <string name="data_disabled_icon_summary">当数据禁用时显示信号图标旁边的交叉标志</string>
 
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">显示蓝牙设备电量</string>
+    <string name="bluetooth_battery_summary">显示当前连接的蓝牙设备电量，如果设备支持</string>
+
     <!-- Tap to sleep on status bar -->
     <string name="statusbar_doubletap_sleep_title">点击进入休眠状态</string>
     <string name="statusbar_doubletap_sleep_summary">双击状态栏使设备休眠</string>
