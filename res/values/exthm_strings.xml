@@ -382,6 +382,28 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
 
+    <!-- Status bar - Battery --> 
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
+    <string name="status_bar_battery_style_square">Square</string>
+    <string name="status_bar_battery_style_solid">Solid</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_text_position_title">Battery percent position</string>
+    <string name="status_bar_battery_text_position_left">Left of the icon</string>
+    <string name="status_bar_battery_text_position_right">Right of the icon</string>
+    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
+    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+
     <!-- Status bar - icon blacklist -->
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
@@ -472,6 +494,13 @@
     <string name="battery_bar_blend_color_reverse_title">Reverse color direction</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
+
+    <!-- Battery mode -->
+    <string name="battery_percentage_title">Battery percentage</string>
+    <string name="battery_percentage_off">Disabled</string>
+    <string name="battery_percentage_next">Enabled</string>
+    <string name="battery_percentage_inside">Enabled (inside icon)</string>
+    <string name="battery_percentage_estimate">Enabled (estimate)</string>
 
     <!-- CPU Info -->
     <string name="show_cpu_info">Show CPU info</string>

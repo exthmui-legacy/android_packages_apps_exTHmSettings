@@ -375,6 +375,28 @@
     <string name="clock_date_right">位于时间右侧</string>
     <string name="clock_date_left">位于时间左侧</string>
 
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">电池样式</string>
+    <string name="status_bar_battery_style_icon_portrait">纵向图标</string>
+    <string name="status_bar_battery_style_icon_landscape">卧式图标</string>
+    <string name="status_bar_battery_style_circle">环形图标</string>
+    <string name="status_bar_battery_style_dotted_circle">虚线圆圈</string>
+    <string name="status_bar_battery_style_square">方形图标</string>
+    <string name="status_bar_battery_style_solid">实心图标</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏</string>
+    <string name="status_bar_battery_percentage_text_inside">图标内</string>
+    <string name="status_bar_battery_percentage_text_next">图标旁</string>
+    <string name="status_bar_battery_text_position_title">电池百分比</string>
+    <string name="status_bar_battery_text_position_left">图标左侧</string>
+    <string name="status_bar_battery_text_position_right">图标右侧</string>
+    <string name="status_bar_battery_text_charging_title">充电时电池百分比</string>
+    <string name="status_bar_battery_text_charging_summary">充电时总是显示电池百分比</string>
+
     <!-- Status bar - icon blacklist -->
     <string name="status_bar_icons_title">状态栏图标</string>
     <string name="status_bar_icons_summary">控制状态栏显示的图标</string>
@@ -465,6 +487,12 @@
     <string name="battery_bar_blend_color_reverse_title">反转颜色方向</string>
     <string name="battery_bar_blend_color_reverse_summary_off">满 →空： 红 ← 绿 ← 蓝 ← 红</string>
     <string name="battery_bar_blend_color_reverse_summary_on">满 →空： 红→  绿→  蓝 → 红</string>
+
+    <!-- Battery percent -->
+    <string name="battery_percentage_title">电量百分比</string>
+    <string name="battery_percentage_off">禁用</string>
+    <string name="battery_percentage_next">启用</string>
+    <string name="battery_percentage_inside">启用 (图标内)</string>
 
     <!-- CPU Info -->
     <string name="show_cpu_info">显示 CPU 信息</string>
