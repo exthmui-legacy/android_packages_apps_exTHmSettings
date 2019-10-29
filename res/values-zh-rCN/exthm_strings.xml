@@ -359,6 +359,16 @@
     <!-- Status bar -->
     <string name="status_bar_toggle_brightness">亮度控制</string>
     <string name="status_bar_toggle_brightness_summary">滑动状态栏调整亮度</string>
+    <string name="status_bar_notif_count_title">显示通知计数</string>
+    <string name="status_bar_notif_count_summary">显示未读通知的数量</string>
+    <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
+    <string name="status_bar_quick_qs_pulldown_summary">沿状态栏的 %1$s 边缘下拉开启快速设置面板</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">左侧</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">右侧</string>
+    <string name="status_bar_quick_qs_pulldown_off">关闭</string>
+    <string name="status_bar_quick_qs_pulldown_left">左侧</string>
+    <string name="status_bar_quick_qs_pulldown_right">右侧</string>
+    <string name="status_bar_quick_qs_pulldown_always">从状态栏下拉总是显示快速设置</string>
 
     <!-- Statusbar categories -->
     <string name="status_bar_icons_category_title">图标</string>
