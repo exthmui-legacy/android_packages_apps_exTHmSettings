@@ -164,6 +164,10 @@
     <string name="lockscreen_solid_fudge_factor_title">清晰等级</string>
     <string name="lockscreen_solid_units_opacity_title">实线不透明度</string>
 
+    <!-- Lockscreen tap-to sleep -->
+    <string name="double_tap_sleep_anywhere_title">双击锁屏界面休眠</string>
+    <string name="double_tap_sleep_anywhere_summary">双击锁屏界面任何位置使设备休眠</string>
+
     <!-- Navigation Bar -->
     <string name="navbar_visibility">导航栏</string>
     <string name="navbar_visibility_summary">切换导航栏的可见性</string>

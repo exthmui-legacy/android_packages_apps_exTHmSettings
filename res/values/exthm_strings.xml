@@ -166,6 +166,10 @@
     <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
     <string name="lockscreen_solid_units_opacity_title">Solid lines opacity</string>
 
+    <!-- Lockscreen tap-to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Tap to sleep</string>
+    <string name="double_tap_sleep_anywhere_summary">Double-tap anywhere on the lockscreen to put device asleep</string>
+
     <!-- Navigation Bar -->
     <string name="navbar_visibility">Navigation bar</string>
     <string name="navbar_visibility_summary">Toggle navigation bar visibility</string>
