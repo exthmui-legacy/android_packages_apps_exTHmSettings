@@ -556,6 +556,10 @@
     <string name="ime_show_enter_key_title">Show enter key</string>
     <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
 
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+
     <!-- Rounded corners -->
     <string name="corners_title">Rounded corners</string>
     <string name="corners_summary">Allow customized rounded corners</string>

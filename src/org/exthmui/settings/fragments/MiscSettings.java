@@ -78,6 +78,8 @@ public class MiscSettings extends SettingsPreferenceFragment
         ContentResolver resolver = mContext.getContentResolver();
         Settings.Global.putInt(resolver,
                 Settings.Global.TOAST_ICON, 1);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.POCKET_JUDGE, 0, UserHandle.USER_CURRENT);
         writeCpuInfoOptions(mContext, false);
         ImeSettings.reset(mContext);
     }

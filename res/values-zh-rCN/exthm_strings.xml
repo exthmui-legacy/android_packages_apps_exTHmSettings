@@ -548,6 +548,10 @@
     <string name="ime_show_enter_key_title">显示回车键</string>
     <string name="ime_show_enter_key_summary">强制键盘显示回车键，而不是表情符号键</string>
 
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+
     <!-- Rounded corners -->
     <string name="corners_title">圆角</string>
     <string name="corners_summary">允许自定义圆角</string>
