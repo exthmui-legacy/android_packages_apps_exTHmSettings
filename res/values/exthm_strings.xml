@@ -170,6 +170,12 @@
     <string name="double_tap_sleep_anywhere_title">Tap to sleep</string>
     <string name="double_tap_sleep_anywhere_summary">Double-tap anywhere on the lockscreen to put device asleep</string>
 
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
+    <string name="fp_success_vibrate_summary">Vibrate when fingerprint authentication is successful</string>
+    <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
+    <string name="fp_error_vibrate_summary">Vibrate when fingerprint authentication fails</string>
+
     <!-- Navigation Bar -->
     <string name="navbar_visibility">Navigation bar</string>
     <string name="navbar_visibility_summary">Toggle navigation bar visibility</string>
