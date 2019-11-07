@@ -45,6 +45,7 @@ import com.android.settings.search.Indexable;
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.ui.Animations;
 import org.exthmui.settings.fragments.ui.RoundedCorners;
+import org.exthmui.settings.fragments.ui.SmartPixels;
 import org.exthmui.settings.fragments.ui.ThemeSettings;
 
 import java.util.ArrayList;
@@ -54,16 +55,30 @@ import lineageos.providers.LineageSettings;
 
 public class UiSettings extends SettingsPreferenceFragment implements Indexable {
 
+    private static final String SMART_PIXELS = "smart_pixels";
+
+    private Preference mSmartPixels;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.exthm_settings_ui);
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        final Resources res = getResources();
+
+        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
+        boolean mSmartPixelsSupported = res.getBoolean(
+                com.android.internal.R.bool.config_supportSmartPixels);
+        if (!mSmartPixelsSupported)
+            prefScreen.removePreference(mSmartPixels);
     }
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Animations.reset(mContext);
         RoundedCorners.reset(mContext);
+        SmartPixels.reset(mContext);
         ThemeSettings.reset(mContext);
     }
 

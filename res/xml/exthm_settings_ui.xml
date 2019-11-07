@@ -37,6 +37,14 @@
         android:summary="@string/corners_summary"
         android:fragment="org.exthmui.settings.fragments.ui.RoundedCorners" />
 
+    <!-- Smart Pixels -->
+    <PreferenceScreen
+        android:key="smart_pixels"
+        android:icon="@drawable/ic_smart_pixels"
+        android:title="@string/smart_pixels_title" 
+        android:summary="@string/smart_pixels_summary" 
+        android:fragment="org.exthmui.settings.fragments.ui.SmartPixels" />
+
     <!-- Styles -->
     <PreferenceScreen
         android:key="style"
