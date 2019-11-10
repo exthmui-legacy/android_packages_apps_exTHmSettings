@@ -80,6 +80,8 @@ public class MiscSettings extends SettingsPreferenceFragment
                 Settings.Global.TOAST_ICON, 1);
         Settings.System.putIntForUser(resolver,
                 Settings.System.POCKET_JUDGE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.THREE_FINGER_GESTURE, 0, UserHandle.USER_CURRENT);
         writeCpuInfoOptions(mContext, false);
         ImeSettings.reset(mContext);
     }

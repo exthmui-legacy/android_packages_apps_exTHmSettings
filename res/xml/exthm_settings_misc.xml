@@ -33,6 +33,14 @@
         android:summary="@string/ime_settings_summary"
         android:fragment="org.exthmui.settings.fragments.misc.ImeSettings"/>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"
+        android:icon="@drawable/ic_three_finger_gesture"
+        android:title="@string/three_finger_gesture"
+        android:summary="@string/three_finger_gesture_summary"
+        android:defaultValue="false" />
+
     <!-- Toast Icon -->
     <org.exthmui.settings.preferences.GlobalSettingSwitchPreference
         android:key="toast_icon"
