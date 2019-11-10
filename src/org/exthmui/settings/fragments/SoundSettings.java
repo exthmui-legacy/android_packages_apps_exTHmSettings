@@ -37,6 +37,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.sound.VolumePanel;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -56,6 +57,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
                 Settings.System.SCREENSHOT_SOUND, 1, UserHandle.USER_CURRENT);
+        VolumePanel.reset(mContext);
     }
 
     @Override

@@ -615,4 +615,18 @@
     <string name="style_notification_black">复古黑色</string>
     <string name="style_and_wallpaper_title">样式 &amp; 壁纸</string>
     <string name="style_and_wallpaper_summary">选择强调色、时钟样式和更多</string>
+
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">音量面板</string>
+    <string name="audio_panel_view_summary">自定义音量面板对话框</string>
+    <string name="audio_panel_view_info">即使在此处禁用，活动音量流也将显示在屏幕上。此处启用的音量流将强制显示。</string>
+    <string name="audio_panel_view_media_title">媒体</string>
+    <string name="audio_panel_view_ringer_title">铃声</string>
+    <string name="audio_panel_view_notification_title">通知</string>
+    <string name="audio_panel_view_notification_disabled">铃声&amp;音量链接</string>
+    <string name="audio_panel_view_alarm_title">闹钟</string>
+    <string name="audio_panel_view_voice_title">语音</string>
+    <string name="audio_panel_view_bt_sco_title">蓝牙</string>
+    <string name="audio_panel_view_position_title">音量面板居左</string>
+    <string name="audio_panel_view_timeout_title">音量面板超时</string>
 </resources>
