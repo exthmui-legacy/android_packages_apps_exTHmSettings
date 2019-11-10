@@ -249,6 +249,10 @@
     <string name="brightness_icon_title">自动亮度</string>
     <string name="brightness_icon_summary">在亮度滑块附近显示自动调节亮度开关</string>
 
+    <!-- Quick settings haptic feedback -->
+    <string name="quick_settings_vibrate_title">触摸时振动</string>
+    <string name="quick_settings_vibrate_summary">触摸瓷贴时振动</string>
+
     <!-- Screenshot Sound  -->
     <string name="screenshot_sound_title">截图提示音</string>
     <string name="screenshot_sound_summary">截图时提示音效</string>
