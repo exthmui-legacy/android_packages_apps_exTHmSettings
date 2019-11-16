@@ -36,6 +36,30 @@
     <string name="reset">重置</string>
     <string name="cancel">取消</string>
     <string name="save">保存</string>
+    <string name="attention">注意</string>
+    <string name="enabled">已启用</string>
+    <string name="disabled">已禁用</string>
+    <string name="default_string">默认</string>
+    <string name="default_settings">默认设置</string>
+    <string name="add">添加</string>
+    <string name="choose_app">选择应用</string>
+    <string name="empty_title">空白</string>
+    <string name="normal_title">正常</string>
+    <string name="hidden_title">隐藏</string>
+    <string name="position_title">位置</string>
+    <string name="position_right_title">右边</string>
+    <string name="position_centered_title">居中</string>
+    <string name="help">帮助</string>
+    <string name="reset_message">重置所有条目为默认值？</string>
+    <string name="profiles_add">添加</string>
+    <string name="profile_choose_app">选择应用</string>
+    <string name="profile_reset_title">重置</string>
+    <string name="show_title">显示</string>
+    <string name="stock">原生</string>
+    <string name="reset_paranoid">Paranoid</string>
+    <string name="reset_android">Android</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">移除所选项目？</string>
 
     <!-- Units -->
     <string name="unit_seconds">秒</string>
@@ -584,6 +608,32 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">滑动截屏</string>
     <string name="three_finger_gesture_summary">三指下滑截图</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">游戏模式</string>
+    <string name="gaming_mode_summary">自定义游戏模式设置</string>
+    <string name="gaming_mode_enabled_summary">允许开启游戏模式</string>
+    <string name="gaming_mode_app_picker_title">自动打开这些应用</string>
+    <string name="add_gaming_mode_package_title">添加游戏模式的应用</string>
+    <string name="add_gaming_mode_package_summary">当这些应用打开时游戏模式会自动打开，关闭时关闭</string>
+    <string name="gaming_mode_headsup_title">屏蔽通知</string>
+    <string name="gaming_mode_headsup_summary">电话和闹钟免除</string>
+    <string name="gaming_mode_hardware_keys_title">锁定按钮</string>
+    <string name="gaming_mode_hardware_keys_summary">当游戏模式打开时，按钮将被锁定</string>
+    <string name="gaming_mode_brightness_title">禁用自动亮度</string>
+    <string name="gaming_mode_brightness_summary">开启游戏模式时锁定屏幕亮度</string>
+    <string name="gaming_mode_ringer_title">游戏模式中的铃声</string>
+    <string name="gaming_mode_ringer_off_title">不更改</string>
+    <string name="gaming_mode_ringer_vibrate_title">振动</string>
+    <string name="gaming_mode_ringer_dnd_title">请勿打扰</string>
+    <string name="gaming_mode_ringer_silent_title">静音</string>
+    <string name="gaming_mode_notifications_title">游戏模式指示</string>
+    <string name="gaming_mode_notifications_off_title">禁用</string>
+    <string name="gaming_mode_notifications_notif_title">通知栏显示</string>
+    <string name="gaming_mode_notifications_toast_title">显示提示</string>
+    <string name="gaming_mode_notifications_all_title">显示提示和通知</string>
+    <string name="gaming_mode_dynamic_title">动态模式</string>
+    <string name="gaming_mode_dynamic_summary">尝试自动检测并添加游戏应用</string>
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋检测</string>
