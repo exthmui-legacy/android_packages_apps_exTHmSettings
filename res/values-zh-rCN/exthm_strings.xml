@@ -707,12 +707,8 @@
     <string name="custom_time">自定义</string>
     <string name="brightness">亮度级别</string>
 
-    <!-- Allow lights in zen mode -->
-    <string name="zen_allow_lights">启用</string>
-    <string name="zen_allow_lights_summary">在不干扰时允许脉冲灯活动</string>
-    <string name="light_brightness_category">亮度设置</string>
-
     <!-- Common light settings strings -->
+    <string name="light_brightness_category">亮度设置</string>
     <string name="light_brightness_title">亮度级别</string>
     <string name="light_brightness_normal">正常</string>
     <string name="light_brightness_zen">请勿打扰</string>
