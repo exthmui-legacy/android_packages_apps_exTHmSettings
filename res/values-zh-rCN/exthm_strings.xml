@@ -757,4 +757,8 @@
     <string name="pulse_speed_normal">正常</string>
     <string name="pulse_speed_slow">慢</string>
     <string name="pulse_speed_very_slow">极慢</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">亮屏时通知</string>
+    <string name="notification_sound_vib_screen_on_summary">屏幕开启时播放声音和振动通知</string>
 </resources>
