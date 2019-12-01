@@ -28,6 +28,7 @@ import android.provider.Settings;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
@@ -52,6 +53,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     private Preference mBatLights;
     private Preference mNotLights;
+    private PreferenceCategory lightsCategory;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -75,6 +77,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 com.android.internal.R.bool.config_intrusiveNotificationLed);
         if (!mNotLightsSupported)
             prefScreen.removePreference(mNotLights);
+
+        if (!mBatLightsSupported && !mNotLightsSupported) {
+            lightsCategory = (PreferenceCategory) prefScreen.findPreference("light_brightness_category");
+            prefScreen.removePreference(lightsCategory);
+        }
     }
 
     public static void reset(Context mContext) {
