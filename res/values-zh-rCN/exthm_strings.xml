@@ -762,6 +762,10 @@
     <string name="notification_sound_vib_screen_on_title">亮屏时通知</string>
     <string name="notification_sound_vib_screen_on_summary">屏幕开启时播放声音和振动通知</string>
 
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">清除应用按钮</string>
+    <string name="notification_guts_kill_app_button_summary">在通知的长按菜单中显示清除应用按钮</string>
+
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_title">侧边亮屏</string>
     <string name="pulse_ambient_light_summary">在通知脉冲上照亮屏幕的侧面边缘</string>
