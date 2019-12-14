@@ -761,4 +761,27 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">亮屏时通知</string>
     <string name="notification_sound_vib_screen_on_summary">屏幕开启时播放声音和振动通知</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_title">侧边亮屏</string>
+    <string name="pulse_ambient_light_summary">在通知脉冲上照亮屏幕的侧面边缘</string>
+    <string name="pulse_ambient_light_color_title">侧边亮屏颜色</string>
+    <string name="pulse_ambient_light_duration_title">侧光持续时间</string>
+    <string name="pulse_ambient_light_duration_summary">设置环境光动画时间</string>
+
+    <!-- Doze: switches -->
+    <string name="doze_display_title">主动显示</string>
+    <string name="doze_display_summary">配置环境显示设置</string>
+    <string name="doze_sensor_title">基于传感器</string>
+    <string name="tilt_title">倾斜</string>
+    <string name="tilt_summary">挥手时显示通知</string>
+    <string name="pickup_title">拾取</string>
+    <string name="pickup_summary">拿起时唤醒屏幕</string>
+    <string name="handwave_title">挥手</string>
+    <string name="handwave_summary">挥手时显示通知</string>
+    <string name="pocket_title">口袋</string>
+    <string name="pocket_summary">从口袋中拿出时唤醒屏幕</string>
+    <string name="doze_vibrate">振动</string>
+    <string name="doze_vibrate_summary">脉冲通知时震动的持续时间</string>
+
 </resources>

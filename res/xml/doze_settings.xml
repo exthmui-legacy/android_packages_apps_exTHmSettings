@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016-2019 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/doze_display_title">
+
+    <lineageos.preference.RemotePreference
+        android:key="doze_device_settings"
+        android:title="@string/ambient_display_screen_title">
+        <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
+    </lineageos.preference.RemotePreference>
+
+    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+        android:key="pulse_ambient_light"
+        android:title="@string/pulse_ambient_light_title"
+        android:summary="@string/pulse_ambient_light_summary"
+        android:defaultValue="false" />
+
+    <org.exthmui.settings.preferences.colorpicker.ColorPickerPreference
+        android:key="pulse_ambient_light_color"
+        android:title="@string/pulse_ambient_light_color_title"
+        android:persistent="false"
+        android:dependency="pulse_ambient_light"
+        android:defaultValue="0xFF3980FF" />
+
+</PreferenceScreen>

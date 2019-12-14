@@ -21,6 +21,14 @@
     xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     android:title="@string/ui_title" >
 
+    <!-- Ambient Display -->
+    <PreferenceScreen
+        android:key="doze_fragment"
+        android:icon="@drawable/ic_ambient"
+        android:title="@string/doze_display_title"
+        android:summary="@string/doze_display_summary"
+        android:fragment="org.exthmui.settings.fragments.ui.DozeSettings" />
+
     <!-- Animations -->
     <Preference
         android:key="animations"

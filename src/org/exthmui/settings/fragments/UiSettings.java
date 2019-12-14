@@ -44,6 +44,7 @@ import com.android.settings.search.Indexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.ui.Animations;
+import org.exthmui.settings.fragments.ui.DozeSettings;
 import org.exthmui.settings.fragments.ui.RoundedCorners;
 import org.exthmui.settings.fragments.ui.SmartPixels;
 import org.exthmui.settings.fragments.ui.ThemeSettings;
@@ -77,6 +78,7 @@ public class UiSettings extends SettingsPreferenceFragment implements Indexable 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Animations.reset(mContext);
+        DozeSettings.reset(mContext);
         RoundedCorners.reset(mContext);
         SmartPixels.reset(mContext);
         ThemeSettings.reset(mContext);
