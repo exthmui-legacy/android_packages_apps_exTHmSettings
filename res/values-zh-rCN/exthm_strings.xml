@@ -788,4 +788,7 @@
     <string name="doze_vibrate">振动</string>
     <string name="doze_vibrate_summary">脉冲通知时震动的持续时间</string>
 
+    <!-- Disable FC notifications -->
+    <string name="disable_fc_notifications_title">禁用强制关闭</string>
+    <string name="disable_fc_notifications_summary">隐藏所有强制关闭通知对话框</string>
 </resources>

@@ -63,4 +63,11 @@
         android:title="@string/pocket_judge_title"
         android:summary="@string/pocket_judge_summary"
         android:defaultValue="false" />
+
+    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+        android:key="disable_fc_notifications"
+        android:icon="@drawable/ic_close"
+        android:title="@string/disable_fc_notifications_title"
+        android:summary="@string/disable_fc_notifications_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
