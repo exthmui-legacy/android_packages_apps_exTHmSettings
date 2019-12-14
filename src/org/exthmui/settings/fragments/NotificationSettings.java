@@ -79,7 +79,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
             prefScreen.removePreference(mNotLights);
 
         if (!mBatLightsSupported && !mNotLightsSupported) {
-            lightsCategory = (PreferenceCategory) prefScreen.findPreference("light_brightness_category");
+            lightsCategory = (PreferenceCategory) prefScreen.findPreference("light_brightness");
             prefScreen.removePreference(lightsCategory);
         }
     }
