@@ -277,6 +277,12 @@
     <string name="quick_settings_vibrate_title">触摸时振动</string>
     <string name="quick_settings_vibrate_summary">触摸瓷贴时振动</string>
 
+    <!-- Quick settings tiles -->
+    <string name="qs_rows_portrait_title">行（竖屏）</string>
+    <string name="qs_rows_landscape_title">行（横屏）</string>
+    <string name="qs_columns_portrait_title">列（竖屏）</string>
+    <string name="qs_columns_landscape_title">列 （横屏）</string>
+
     <!-- Screenshot Sound  -->
     <string name="screenshot_sound_title">截图提示音</string>
     <string name="screenshot_sound_summary">截图时提示音效</string>
