@@ -18,11 +18,15 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/doze_display_title">
 
-    <lineageos.preference.RemotePreference
-        android:key="doze_device_settings"
-        android:title="@string/ambient_display_screen_title">
-        <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
-    </lineageos.preference.RemotePreference>
+    <org.exthmui.settings.preferences.SecureSettingSwitchPreference
+        android:key="doze_enabled"
+        android:title="@string/doze_title"
+        android:summary="@string/doze_summary" />
+
+    <org.exthmui.settings.preferences.SecureSettingSwitchPreference
+        android:key="doze_always_on"
+        android:title="@string/doze_always_on_title"
+        android:summary="@string/doze_always_on_summary" />
 
     <org.exthmui.settings.preferences.SystemSettingSwitchPreference
         android:key="pulse_ambient_light"
@@ -33,8 +37,53 @@
     <org.exthmui.settings.preferences.colorpicker.ColorPickerPreference
         android:key="pulse_ambient_light_color"
         android:title="@string/pulse_ambient_light_color_title"
-        android:persistent="false"
         android:dependency="pulse_ambient_light"
         android:defaultValue="0xFF3980FF" />
+
+    <lineageos.preference.RemotePreference
+        android:key="doze_device_settings"
+        android:title="@string/ambient_display_screen_title">
+        <intent
+            android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
+    </lineageos.preference.RemotePreference>
+
+    <PreferenceCategory
+        android:key="doze_sensor"
+        android:title="@string/doze_sensor_title" >
+
+        <org.exthmui.settings.preferences.SecureSettingSwitchPreference
+            android:key="doze_tilt_gesture"
+            android:defaultValue="false"
+            android:title="@string/tilt_title"
+            android:summary="@string/tilt_summary" />
+
+        <org.exthmui.settings.preferences.SecureSettingSwitchPreference
+            android:key="doze_pick_up_gesture"
+            android:defaultValue="false"
+            android:title="@string/pickup_title"
+            android:summary="@string/pickup_summary" />
+
+        <org.exthmui.settings.preferences.SecureSettingSwitchPreference
+            android:key="doze_handwave_gesture"
+            android:defaultValue="false"
+            android:title="@string/handwave_title"
+            android:summary="@string/handwave_summary" />
+
+        <org.exthmui.settings.preferences.SecureSettingSwitchPreference
+            android:key="doze_pocket_gesture"
+            android:defaultValue="false"
+            android:title="@string/pocket_title"
+            android:summary="@string/pocket_summary" />
+
+        <org.exthmui.settings.preferences.SecureSettingSeekBarPreference
+            android:key="doze_gesture_vibrate"
+            android:title="@string/doze_vibrate"
+            android:summary="@string/doze_vibrate_summary"
+            android:defaultValue="0"
+            android:max="2000"
+            settings:min="0"
+            settings:interval="10"
+            settings:units="@string/unit_milliseconds" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

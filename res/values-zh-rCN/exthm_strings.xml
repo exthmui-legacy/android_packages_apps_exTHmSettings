@@ -797,4 +797,39 @@
     <!-- Disable FC notifications -->
     <string name="disable_fc_notifications_title">禁用强制关闭</string>
     <string name="disable_fc_notifications_summary">隐藏所有强制关闭通知对话框</string>
+
+    <!-- Doze pulse options -->
+    <string name="summary_doze_enabled">启用</string>
+    <string name="summary_doze_disabled">禁用</string>
+    <string name="doze_overwrite_value_title">覆盖默认值</string>
+    <string name="doze_overwrite_value_summary">允许用户配置覆盖默认值</string>
+    <string name="doze_pulse_title">用户可配置的设置</string>
+    <string name="doze_fade_in_pickup_title">淡入(被动)</string>
+    <string name="doze_fade_in_doubletap_title">淡入(双击)</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">可见的持续时间</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">淡出</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_brightness_level_title">亮度级别</string>
+    <string name="onehundred_ms">100 毫秒</string>
+    <string name="twofifty_ms">250 毫秒</string>
+    <string name="fivehundred_ms_default">500 毫秒 (默认)</string>
+    <string name="sevenfifty_ms">750 毫秒</string>
+    <string name="one_second">1 秒</string>
+    <string name="onehalf_second">1.5 秒</string>
+    <string name="two_second">2 秒</string>
+    <string name="twohalf_second">2.5 秒</string>
+    <string name="three_second_default">3 秒 (默认)</string>
+    <string name="threehalf_second">3.5 秒</string>
+    <string name="four_second">4 秒</string>
+    <string name="fourhalf_second">4.5 秒</string>
+    <string name="five_second">5 秒</string>
+    <string name="doze_notification_color_invert_title">通知反色</string>
+    <string name="doze_notification_color_invert_summary_off">使用暗色主题时，通知将不会反转颜色。</string>
+    <string name="doze_notification_color_invert_summary_on">使用亮色主题时，通知将会反转颜色。</string>
+    <string name="doze_vibrate_on_pickup_title">挂断时振动</string>
+    <string name="doze_check_proximity_before_pulse_title">检查脉冲前的接近度</string>
+    <string name="sensor_warning_title">警告</string>
+    <string name="sensor_warning_message">基于传感器的设置受到硬件兼容性的限制。启用环境显示传感器可能会增加功耗。</string>
 </resources>
