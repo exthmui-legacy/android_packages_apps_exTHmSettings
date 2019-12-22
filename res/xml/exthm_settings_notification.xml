@@ -18,6 +18,15 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title" >
 
+     <!-- Flashlight on Call -->
+     <org.exthmui.settings.preferences.SystemSettingListPreference
+        android:key="flashlight_on_call"
+        android:icon="@drawable/ic_led_on"
+        android:title="@string/flashlight_on_call_title"
+        android:entries="@array/flashlight_on_call_entries"
+        android:entryValues="@array/flashlight_on_call_values"
+        android:defaultValue="0" />
+
     <org.exthmui.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:icon="@drawable/ic_bell_ring"

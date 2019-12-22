@@ -810,6 +810,13 @@
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Blink Flashlight on call</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
+    <string name="flashlight_on_call_dnd">Only in DND mode</string>
+    <string name="flashlight_on_call_always">Always</string>
+
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_title">Edge lighting</string>
     <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>

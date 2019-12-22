@@ -798,6 +798,13 @@
     <string name="notification_guts_kill_app_button_title">清除应用按钮</string>
     <string name="notification_guts_kill_app_button_summary">在通知的长按菜单中显示清除应用按钮</string>
 
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">来电话时闪烁闪光灯</string>
+    <string name="flashlight_on_call_disabled">禁用</string>
+    <string name="flashlight_on_call_not_dnd">仅在铃声模式下</string>
+    <string name="flashlight_on_call_dnd">仅在 dnd 模式下</string>
+    <string name="flashlight_on_call_always">始终</string>
+
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_title">侧边亮屏</string>
     <string name="pulse_ambient_light_summary">在通知脉冲上照亮屏幕的侧面边缘</string>
