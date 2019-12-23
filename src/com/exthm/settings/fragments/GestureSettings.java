@@ -1,4 +1,4 @@
-package com.nitrogen.settings.fragments;
+package com.exthm.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -13,12 +13,12 @@ public class GestureSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings_gestures);
+        addPreferencesFromResource(R.xml.exthm_settings_gestures);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.EXTHM_SETTINGS;
     }
 
 }

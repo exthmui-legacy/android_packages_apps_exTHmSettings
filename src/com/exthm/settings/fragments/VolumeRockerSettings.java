@@ -1,4 +1,4 @@
-package com.nitrogen.settings.fragments;
+package com.exthm.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -20,7 +20,7 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings_volume);
+        addPreferencesFromResource(R.xml.exthm_settings_volume);
 
     }
 
@@ -32,6 +32,6 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.EXTHM_SETTINGS;
     }
 }

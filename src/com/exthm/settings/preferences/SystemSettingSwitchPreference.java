@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.settings.preferences;
+package com.exthm.settings.preferences;
 
 import android.content.Context;
 import android.provider.Settings;

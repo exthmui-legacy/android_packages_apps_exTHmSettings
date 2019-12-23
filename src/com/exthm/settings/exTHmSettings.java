@@ -1,6 +1,8 @@
 /*
  * Copyright (C) 2016 The Pure Nexus Project
  * used for Nitrogen OS
+ * exTHmUI Team
+ * @kmou424 Edited
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +17,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.settings;
+package com.exthm.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +31,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class NitrogenSettings extends SettingsPreferenceFragment {
+public class exTHmSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings);
+        addPreferencesFromResource(R.xml.exthm_settings);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.EXTHM_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
