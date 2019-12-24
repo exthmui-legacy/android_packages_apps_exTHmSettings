@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The exTHmUI
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="exthm_settings_title">exTHmUI 设置</string>
+
+    <!-- Categories -->
+    <string name="button_title">按钮</string>
+    <string name="gestures_title">手势</string>
+    <string name="lockscreen_title">锁屏</string>
+    <string name="misc_title">杂项</string>
+    <string name="navbar_title">导航栏</string>
+    <string name="powermenu_title">电源菜单</string>
+    <string name="quicksettings_title">快速设置</string>
+    <string name="recents_title">最近任务</string>
+    <string name="statusbar_title">状态栏</string>
+    <string name="volume_title">音量键调节</string>
+    <string name="notifications_title">通知</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">重置</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">颜色选择器</string>
+    <string name="press_color_to_apply">选择下面的一个颜色来应用</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">应用</string>
+    <string name="color_default">默认</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_screenshot">屏幕截图</string>
+    <string name="powermenu_power">电源</string>
+    <string name="powermenu_restart">重启</string>
+    <string name="powermenu_restart_recovery">高级重启</string>
+    <string name="powermenu_airplane">飞行模式</string>
+    <string name="powermenu_settings">设置</string>
+    <string name="powermenu_lockdown">锁定</string>
+    <string name="powermenu_soundpanel">音量面板</string>
+    <string name="powermenu_users">用户切换</string>
+    <string name="powermenu_logout">注销</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示电源适配器的最大电流、电压以及电池温度</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">指纹验证时振动</string>
+    <string name="fprint_sucess_vib_summary">验证指纹成功时震动</string>
+
+    <string name="face_auto_unlock_title">面部识别自动解锁</string>
+    <string name="face_auto_unlock_summary">面部识别后自动解除锁屏</string>
+</resources>
