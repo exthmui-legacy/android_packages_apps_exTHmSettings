@@ -508,6 +508,10 @@
     <string name="show_fourg_icon_title">4G 图标</string>
     <string name="show_fourg_icon_summary">在信号图标上显示 4G 而不是 LTE</string>
 
+    <!-- Old mobiletype icon style -->
+    <string name="old_mobiletype_title">旧样式信号图标</string>
+    <string name="old_mobiletype_summary">合并信号和信号类型图标</string>
+
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">漫游标志</string>
     <string name="roaming_indicator_icon_summary">漫游时在信号图标处显示漫游标志</string>

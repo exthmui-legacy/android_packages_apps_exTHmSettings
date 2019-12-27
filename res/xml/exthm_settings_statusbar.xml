@@ -55,6 +55,12 @@
             android:fragment="org.exthmui.settings.fragments.statusbar.NetworkTrafficSettings" />
 
         <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_old_mobiletype"
+            android:icon="@drawable/ic_signal"
+            android:title="@string/old_mobiletype_title"
+            android:summary="@string/old_mobiletype_summary" />
+
+        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:icon="@drawable/ic_network"
             android:title="@string/data_disabled_icon_title"
