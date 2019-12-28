@@ -21,7 +21,6 @@
     xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     android:title="@string/lockscreen_title" >
 
-
     <PreferenceCategory
         android:key="lockscreen_interface_category"
         android:title="@string/lockscreen_interface_category">
@@ -83,5 +82,17 @@
             android:summary="@string/fp_error_vibrate_summary"
             android:defaultValue="true" />
     </PreferenceCategory>
-    
+
+    <PreferenceCategory
+        android:key="lockscreen_misc_category"
+        android:title="@string/lockscreen_misc_category">
+
+        <org.exthmui.settings.preferences.GlobalSettingSwitchPreference
+               android:key="lockscreen_enable_power_menu"
+               android:icon="@drawable/ic_power"
+               android:title="@string/lockscreen_enable_power_menu_title"
+               android:summary="@string/lockscreen_enable_power_menu_summary"
+               android:defaultValue="true" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
