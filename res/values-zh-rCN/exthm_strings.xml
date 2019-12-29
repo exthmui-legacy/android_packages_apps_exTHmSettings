@@ -840,4 +840,9 @@
     <string name="doze_check_proximity_before_pulse_title">检查脉冲前的接近度</string>
     <string name="sensor_warning_title">警告</string>
     <string name="sensor_warning_message">基于传感器的设置受到硬件兼容性的限制。启用环境显示传感器可能会增加功耗。</string>
+
+    <!-- Screenshot type  -->
+    <string name="screenshot_type_title">窗口截图</string>
+    <string name="screenshot_type_fullscreen">同时按住音量键全屏截图</string>
+    <string name="screenshot_type_partial">通过音量键在区域上拖动选区以进行截图</string>
 </resources>

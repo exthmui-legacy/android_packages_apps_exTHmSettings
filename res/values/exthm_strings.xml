@@ -853,4 +853,9 @@
     <string name="doze_check_proximity_before_pulse_title">Check proximity before pulse</string>
     <string name="sensor_warning_title">Caution</string>
     <string name="sensor_warning_message">Settings based on sensors are subject to hardware compatibility. Enabling sensors for ambient display may increase power drain.</string>
+
+    <!-- Screenshot type  -->
+    <string name="screenshot_type_title">Screenshot type</string>
+    <string name="screenshot_type_fullscreen">Take fullscreen screenshot via volume keys</string>
+    <string name="screenshot_type_partial">Drag selection on the area for screenshot via volume keys</string>
 </resources>
