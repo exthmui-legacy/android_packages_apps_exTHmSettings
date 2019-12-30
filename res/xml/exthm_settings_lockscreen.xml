@@ -25,6 +25,13 @@
         android:key="lockscreen_interface_category"
         android:title="@string/lockscreen_interface_category">
 
+        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_status_bar"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/lockscreen_status_bar_title"
+            android:summary="@string/lockscreen_status_bar_summary"
+            android:defaultValue="true" />
+
         <lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:icon="@drawable/ic_movie"
