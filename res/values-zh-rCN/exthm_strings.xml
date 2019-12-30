@@ -849,4 +849,10 @@
     <string name="screenshot_type_title">窗口截图</string>
     <string name="screenshot_type_fullscreen">同时按住音量键全屏截图</string>
     <string name="screenshot_type_partial">通过音量键在区域上拖动选区以进行截图</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">设备已解锁时，在电源菜单的重启选项下加入重启至恢复模式与引导程序的选项</string>
+    <string name="advanced_reboot_secured_title">安全锁屏</string>
+    <string name="advanced_reboot_secured_summary">在安全锁屏界面显示高级重启选项</string>
 </resources>
