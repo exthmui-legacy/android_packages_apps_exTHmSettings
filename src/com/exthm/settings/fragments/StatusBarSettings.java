@@ -25,8 +25,8 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.nitrogen.settings.preferences.CustomSeekBarPreference;
-import com.nitrogen.settings.preferences.SystemSettingSwitchPreference;
+import com.exthm.settings.preferences.CustomSeekBarPreference;
+import com.exthm.settings.preferences.SystemSettingSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
 
