@@ -66,6 +66,9 @@
     <string name="face_auto_unlock_title">Face auto unlock</string>
     <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 
+    <!-- Statusbar items -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Network traffic</string>
     <string name="network_traffic_state_summary">Show net activity in statusbar</string>
