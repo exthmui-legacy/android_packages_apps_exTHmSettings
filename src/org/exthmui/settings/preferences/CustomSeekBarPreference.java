@@ -100,6 +100,12 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
             mValue = mMinValue;
         }
 
+        String defaultValueText = attrs.getAttributeValue(SETTINGS_NS, "defaultValueText");
+        mDefaultValueTextExists = defaultValueText != null && !defaultValueText.isEmpty();
+        if (mDefaultValueTextExists) {
+            mDefaultValueText = defaultValueText;
+        }
+
         mSeekBar = new SeekBar(context, attrs);
         setLayoutResource(R.layout.preference_custom_seekbar);
     }
