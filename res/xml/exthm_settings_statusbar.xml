@@ -88,6 +88,16 @@
             android:summary="@string/bluetooth_battery_summary"
             android:defaultValue="true"/>
 
+        <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
+            android:key="volte_icon_style"
+            android:icon="@drawable/ic_volte"
+            android:title="@string/volte_icon_title"
+            android:summary="@string/volte_icon_summary"
+            android:defaultValue="0"
+            settings:defaultValueText="@string/disabled"
+            android:max="6"
+            settings:min="0"
+            settings:units="" />
     </PreferenceCategory>
 
     <!-- Status bar battery customizations -->

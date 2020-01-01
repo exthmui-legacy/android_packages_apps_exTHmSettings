@@ -539,6 +539,10 @@
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
 
+    <!-- VoLTE Icon -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon when available</string>
+
     <!-- Tap to sleep on status bar -->
     <string name="statusbar_doubletap_sleep_title">Tap to sleep</string>
     <string name="statusbar_doubletap_sleep_summary">Double-tap on the status bar to put device asleep</string>
