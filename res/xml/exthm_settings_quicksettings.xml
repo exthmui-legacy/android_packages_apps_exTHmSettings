@@ -78,6 +78,26 @@
     <PreferenceCategory 
          android:title="@string/qs_misc_category">
 
+        <!-- Battery styles -->
+        <org.exthmui.settings.preferences.SystemSettingListPreference
+            android:key="qs_battery_style"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/status_bar_battery_style_title"
+            android:dialogTitle="@string/status_bar_battery_style_title"
+            android:entries="@array/qs_battery_style_entries"
+            android:entryValues="@array/qs_battery_style_values"
+            android:defaultValue="-1" />
+
+        <!-- Battery location -->
+        <org.exthmui.settings.preferences.SystemSettingListPreference
+            android:key="qs_battery_location"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/qs_battery_location_title"
+            android:dialogTitle="@string/qs_battery_location_title"
+            android:entries="@array/qs_battery_location_entries"
+            android:entryValues="@array/qs_battery_location_values"
+            android:defaultValue="0" />
+
         <!-- Battery percent -->
         <org.exthmui.settings.preferences.SystemSettingListPreference
             android:key="qs_show_battery_percent"

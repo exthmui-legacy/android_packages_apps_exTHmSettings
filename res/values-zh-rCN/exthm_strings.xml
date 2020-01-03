@@ -260,6 +260,12 @@
     <string name="qs_misc_category">杂项</string>
     <string name="qs_footer_category">页脚</string>
 
+    <!-- QS battery -->
+    <string name="qs_battery_location_title">电池图标位置</string>
+    <string name="qs_battery_location_qs_panel">快速设置面板</string>
+    <string name="qs_battery_location_qs_statusbar">快速状态栏</string>
+    <string name="qs_use_status_bar_battery_style">跟随状态栏样式</string>
+
     <!-- QS Tile -->
     <string name="qs_tile_title_visibility_title">平铺标题</string>
     <string name="qs_tile_title_visibility_summary">在每个图块下方显示标题</string>
