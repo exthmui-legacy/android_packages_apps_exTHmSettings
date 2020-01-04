@@ -894,4 +894,8 @@
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
     <string name="advanced_reboot_secured_title">Secured lockscreen</string>
     <string name="advanced_reboot_secured_summary">Display advanced restart options on secured lockscreen</string>
+
+    <!-- Lock icon -->
+    <string name="lockscreen_lock_icon_title">Lock icon</string>
+    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
 </resources>

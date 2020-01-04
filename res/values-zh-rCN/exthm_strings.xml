@@ -882,4 +882,8 @@
     <string name="advanced_reboot_summary">设备已解锁时，在电源菜单的重启选项下加入重启至恢复模式与引导程序的选项</string>
     <string name="advanced_reboot_secured_title">安全锁屏</string>
     <string name="advanced_reboot_secured_summary">在安全锁屏界面显示高级重启选项</string>
+
+    <!-- Lock icon -->
+    <string name="lockscreen_lock_icon_title">锁定图标</string>
+    <string name="lockscreen_lock_icon_summary">在锁屏界面显示锁定图标</string>
 </resources>
