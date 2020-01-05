@@ -561,6 +561,14 @@
     <string name="lockscreen_battery_info_title">电池信息</string>
     <string name="lockscreen_battery_info_summary">充电时显示电池信息</string>
 
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">充电动画</string>
+    <string name="lockscreen_charging_animation_flash">闪电</string>
+    <string name="lockscreen_charging_animation_battery">电池</string>
+    <string name="lockscreen_charging_animation_drop">下降</string>
+    <string name="lockscreen_charging_animation_explosion">爆炸</string>
+    <string name="lockscreen_charging_animation_water">水花</string>
+
     <!-- Disable HW keys -->
     <string name="hwkeys_disabled_title">禁用实体按键</string>
     <string name="hwkeys_disabled_summary">启用此功能将禁用用于导航的实体按键</string>

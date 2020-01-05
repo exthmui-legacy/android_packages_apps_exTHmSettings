@@ -568,6 +568,14 @@
     <string name="lockscreen_battery_info_title">Battery info</string>
     <string name="lockscreen_battery_info_summary">Display battery info when charging</string>
 
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Battery</string>
+    <string name="lockscreen_charging_animation_drop">Drop</string>
+    <string name="lockscreen_charging_animation_explosion">Explosion</string>
+    <string name="lockscreen_charging_animation_water">Water</string>
+
     <!-- Disable HW keys -->
     <string name="hwkeys_disabled_title">Disable HW keys</string>
     <string name="hwkeys_disabled_summary">Enabling this will disable hardware keys for navigation</string>
