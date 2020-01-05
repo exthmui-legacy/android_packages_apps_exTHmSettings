@@ -22,69 +22,79 @@
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.exthm.settings.fragments.StatusBarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:icon="@drawable/ic_settings_statusbar"
+            android:enabled="true"/>
 
         <!-- Quick Settings panel -->
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="com.exthm.settings.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
+            android:icon="@drawable/ic_settings_quicksettings"
+            android:enabled="false"/>
 
         <!-- Buttons -->
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="com.exthm.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
+            android:icon="@drawable/ic_settings_buttons"
+            android:enabled="true"/>
 
         <!-- Navigation Bar -->
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.exthm.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
+            android:icon="@drawable/ic_settings_navbar"
+            android:enabled="false"/>
 
         <!-- Gestures -->
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.exthm.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gesture"/>
+            android:icon="@drawable/ic_settings_gesture"
+            android:enabled="false"/>
 
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.exthm.settings.fragments.LockScreenSettings"
-            android:icon="@drawable/ic_settings_lockscreens"/>
+            android:icon="@drawable/ic_settings_lockscreens"
+            android:enabled="true"/>
 
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
             android:fragment="com.exthm.settings.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
+            android:icon="@drawable/ic_settings_powermenu"
+            android:enabled="false"/>
 
         <!-- Recents -->
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.exthm.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:icon="@drawable/ic_settings_recents"
+            android:enabled="false"/>
 
         <!-- Notifications -->
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.exthm.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notification"/>
+            android:icon="@drawable/ic_settings_notification"
+            android:enabled="false"/>
 
         <!-- Misc -->
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title"
             android:fragment="com.exthm.settings.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_miscs"/>
+            android:icon="@drawable/ic_settings_miscs"
+            android:enabled="false"/>
 
 </PreferenceScreen>
