@@ -818,6 +818,10 @@
     <string name="pulse_ambient_light_duration_title">侧光持续时间</string>
     <string name="pulse_ambient_light_duration_summary">设置环境光动画时间</string>
 
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">提示音乐</string>
+    <string name="pulse_on_new_tracks_summary">主动显示新音乐播放</string>
+
     <!-- Doze: switches -->
     <string name="doze_display_title">主动显示</string>
     <string name="doze_display_summary">配置环境显示设置</string>
