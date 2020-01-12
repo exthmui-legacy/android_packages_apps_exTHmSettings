@@ -894,4 +894,11 @@
     <!-- Lock icon -->
     <string name="lockscreen_lock_icon_title">锁定图标</string>
     <string name="lockscreen_lock_icon_summary">在锁屏界面显示锁定图标</string>
+
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">从最近任务中隐藏应用程序</string>
+    <string name="hide_apps_from_recents_summary">隐藏最近任务界面显示的应用</string>
+    <string name="hide_from_recents_add_app">添加应用到隐藏列表</string>
+    <string name="hide_from_recents_picker_title">自动隐藏这些应用</string>
+    <string name="hide_from_recents_picker_summary">这些应用下次打开时将自动隐藏在最近任务屏幕</string>
 </resources>

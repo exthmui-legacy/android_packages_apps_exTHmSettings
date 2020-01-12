@@ -46,6 +46,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.misc.HAFRSettings;
 import org.exthmui.settings.fragments.misc.GamingMode;
 import org.exthmui.settings.fragments.misc.ImeSettings;
 
@@ -86,6 +87,7 @@ public class MiscSettings extends SettingsPreferenceFragment
         Settings.System.putIntForUser(resolver,
                 Settings.System.THREE_FINGER_GESTURE, 0, UserHandle.USER_CURRENT);
         writeCpuInfoOptions(mContext, false);
+        HAFRSettings.reset(mContext);
         GamingMode.reset(mContext);
         ImeSettings.reset(mContext);
     }

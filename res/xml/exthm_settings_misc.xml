@@ -33,6 +33,13 @@
         android:summary="@string/gaming_mode_summary"
         android:fragment="org.exthmui.settings.fragments.misc.GamingMode"/>
 
+    <!-- HAFR -->
+    <Preference
+        android:icon="@drawable/ic_hafr"
+        android:title="@string/hide_apps_from_recents_title"
+        android:summary="@string/hide_apps_from_recents_summary"
+        android:fragment="org.exthmui.settings.fragments.misc.HAFRSettings" />
+
     <!-- Keyboard -->
     <Preference
         android:key="ime_settings"
