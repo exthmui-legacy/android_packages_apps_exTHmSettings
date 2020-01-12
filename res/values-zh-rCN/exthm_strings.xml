@@ -901,4 +901,8 @@
     <string name="hide_from_recents_add_app">添加应用到隐藏列表</string>
     <string name="hide_from_recents_picker_title">自动隐藏这些应用</string>
     <string name="hide_from_recents_picker_summary">这些应用下次打开时将自动隐藏在最近任务屏幕</string>
+
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">通知振动</string>
+    <string name="vibrate_on_notifications_summary">通知时振动</string>
 </resources>

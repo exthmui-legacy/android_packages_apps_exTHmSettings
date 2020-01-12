@@ -913,4 +913,8 @@
     <string name="hide_from_recents_add_app">Add app to Hide list</string>
     <string name="hide_from_recents_picker_title">Automatically hide for these apps</string>
     <string name="hide_from_recents_picker_summary">These apps will be automatically hide from recents screen when they are opened next time</string>
+
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Notification vibration</string>
+    <string name="vibrate_on_notifications_summary">Vibrate on notifications</string>
 </resources>
