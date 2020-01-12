@@ -38,12 +38,14 @@ import com.android.internal.util.exthmui.Utils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
 
 import java.util.List;
 import java.util.ArrayList;
 
+@SearchIndexable
 public class NotificationSettings extends SettingsPreferenceFragment implements Indexable {
 
     public static final String TAG = "NotificationSettings";
@@ -121,7 +123,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,

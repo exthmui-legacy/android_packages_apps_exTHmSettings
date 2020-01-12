@@ -35,6 +35,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.sound.VolumePanel;
@@ -42,6 +43,7 @@ import org.exthmui.settings.fragments.sound.VolumePanel;
 import java.util.List;
 import java.util.ArrayList;
 
+@SearchIndexable
 public class SoundSettings extends SettingsPreferenceFragment implements Indexable {
 
     public static final String TAG = "SoundSettings";
@@ -68,7 +70,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,

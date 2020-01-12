@@ -42,6 +42,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.exthmui.Utils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.preferences.CustomSeekBarPreference;

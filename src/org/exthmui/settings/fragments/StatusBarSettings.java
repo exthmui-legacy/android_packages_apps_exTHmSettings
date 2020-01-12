@@ -37,6 +37,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.statusbar.BatteryBar;
@@ -54,6 +55,7 @@ import lineageos.providers.LineageSettings;
 
 import org.lineageos.internal.util.FileUtils;
 
+@SearchIndexable
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
 
@@ -172,7 +174,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,

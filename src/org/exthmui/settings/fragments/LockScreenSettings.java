@@ -37,6 +37,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.lockscreen.LockScreenVisualizer;
@@ -48,6 +49,7 @@ import java.util.ArrayList;
 
 import lineageos.providers.LineageSettings;
 
+@SearchIndexable
 public class LockScreenSettings extends SettingsPreferenceFragment
             implements Preference.OnPreferenceChangeListener, Indexable  {
 
@@ -116,7 +118,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,

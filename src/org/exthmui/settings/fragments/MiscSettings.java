@@ -44,6 +44,7 @@ import com.android.internal.util.exthmui.Utils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
 import org.exthmui.settings.fragments.misc.HAFRSettings;
@@ -53,6 +54,7 @@ import org.exthmui.settings.fragments.misc.ImeSettings;
 import java.util.List;
 import java.util.ArrayList;
 
+@SearchIndexable
 public class MiscSettings extends SettingsPreferenceFragment 
         implements Indexable, Preference.OnPreferenceChangeListener {
 
@@ -123,7 +125,7 @@ public class MiscSettings extends SettingsPreferenceFragment
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
