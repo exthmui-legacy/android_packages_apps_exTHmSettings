@@ -38,6 +38,11 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
 
+    <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -313,4 +318,22 @@
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
     <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
 
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown</string>
+    <string name="ticker_title">Status bar ticker</string>
+    <string name="ticker_summary">Enable the status bar ticker</string>
+    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Icon</string>
+    <string name="colors_title">Colors</string>
+    <string name="values_restored_title">Values restored</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
 </resources>
