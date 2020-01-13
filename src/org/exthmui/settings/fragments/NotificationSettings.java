@@ -41,6 +41,7 @@ import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.notifications.Ticker;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -113,6 +114,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 Settings.System.VIBRATE_ON_CALLWAITING, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
+        Ticker.reset(mContext);
     }
 
     @Override

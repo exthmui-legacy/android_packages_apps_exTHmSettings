@@ -18,6 +18,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title" >
 
+    <!-- Statusbar Ticker -->
+    <Preference
+        android:key="ticker_settings"
+        android:icon="@drawable/ic_cursor"
+        android:title="@string/ticker_screen_title"
+        android:summary="@string/ticker_screen_summary"
+        android:fragment="org.exthmui.settings.fragments.notifications.Ticker"/>
+
      <!-- Flashlight on Call -->
      <org.exthmui.settings.preferences.SystemSettingListPreference
         android:key="flashlight_on_call"
