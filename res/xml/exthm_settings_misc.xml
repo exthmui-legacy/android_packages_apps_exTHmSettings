@@ -48,6 +48,14 @@
         android:summary="@string/ime_settings_summary"
         android:fragment="org.exthmui.settings.fragments.misc.ImeSettings"/>
 
+    <!-- Smart Charging -->
+    <Preference
+        android:key="smart_charging"
+        android:icon="@drawable/ic_battery_charging_80"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary"
+        android:fragment="org.exthmui.settings.fragments.misc.SmartCharging"/>
+
     <!-- Three-fingers-swipe to screenshot -->
     <org.exthmui.settings.preferences.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
