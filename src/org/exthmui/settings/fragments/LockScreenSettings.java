@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -47,6 +48,7 @@ import org.exthmui.settings.preferences.SystemSettingListPreference;
 import java.util.List;
 import java.util.ArrayList;
 
+import lineageos.app.LineageContextConstants;
 import lineageos.providers.LineageSettings;
 
 @SearchIndexable
@@ -58,15 +60,19 @@ public class LockScreenSettings extends SettingsPreferenceFragment
     private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
     private static final String FP_SUCCESS_VIBRATE = "fp_success_vibrate";
     private static final String FP_ERROR_VIBRATE = "fp_error_vibrate";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
 
     private Preference mFingerprintVib;
     private Preference mFingerprintVibErr;
+    private PreferenceCategory mFODIconPickerCategory;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.exthm_settings_lockscreen);
+        PreferenceScreen prefSet = getPreferenceScreen();
+        Context mContext = getContext();
 
         PreferenceCategory gestCategory = (PreferenceCategory) findPreference(LOCKSCREEN_GESTURES_CATEGORY);
 
@@ -80,6 +86,13 @@ public class LockScreenSettings extends SettingsPreferenceFragment
             gestCategory.removePreference(mFingerprintVibErr);
         }
 
+        PackageManager packageManager = mContext.getPackageManager();
+        boolean hasFod = packageManager.hasSystemFeature(LineageContextConstants.Features.FOD);
+
+        mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPickerCategory != null && !hasFod) {
+            prefSet.removePreference(mFODIconPickerCategory);
+        }
     }
 
     @Override

@@ -934,4 +934,15 @@
     <string name="smart_charging_reset_stats_title">重置电池统计信息</string>
     <string name="smart_charging_reset_stats_summary">达到用户定义的充电级别后重置电池统计</string>
     <string name="smart_charging_footer">智能充电允许您设置最大充电级别来延长电池寿命。 如果启用，电池将停止在停止触发级别充电并恢复在开始触发级别充电。 停止触发级别应该总是大于起始触发级别</string>
+
+    <!--FOD -->
+    <string name="fod_icon_picker_category_title">屏幕指纹自定义选项</string>
+    <string name="fod_icon_picker_title">屏幕指纹图标选择器</string>
+    <string name="fod_icon_picker_summary">选择您最喜欢的指纹图标</string>
+    <string name="fod_icon_picker_footer">为了添加您自己的图标， 选择左上角的图标并使用一加 6T 指纹自定义应用程序来选择您想要的图标。</string>
+    <string name="fod_wallpaper_color">使用壁纸颜色作为屏幕指纹图标</string>
+    <string name="fod_wallpaper_color_summary">屏幕指纹图标使用调整后的主壁纸颜色\n注意：可能只有一些壁纸才会看起来很好</string>
+    <string name="fod_recog_animation">屏幕指纹识别动画</string>
+    <string name="fod_recog_animation_summary">在识别手指时显示动画</string>
+    <string name="fod_recog_animation_effect_title">屏幕指纹识别动画效果</string>
 </resources>
