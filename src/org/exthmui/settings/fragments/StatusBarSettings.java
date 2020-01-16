@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2019 crDroid Android Project
+ * Copyright (C) 2016-2020 crDroid Android Project
  * Copyright (C) 2020 The exTHmUI OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -45,6 +45,7 @@ import org.exthmui.settings.fragments.statusbar.Clock;
 import org.exthmui.settings.fragments.statusbar.NetworkTrafficSettings;
 import org.exthmui.settings.preferences.SystemSettingListPreference;
 import org.exthmui.settings.preferences.colorpicker.ColorPickerPreference;
+import org.exthmui.settings.utils.DeviceUtils;
 import org.exthmui.settings.utils.TelephonyUtils;
 
 import java.util.List;
@@ -87,19 +88,16 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mStatusBarClock =
                 (LineageSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
 
-        final boolean hasNotch = getResources().getBoolean(
-                org.lineageos.platform.internal.R.bool.config_haveNotch);
-
         // Adjust status bar preferences for RTL
         if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
-            if (hasNotch) {
+            if (DeviceUtils.hasNotch(mContext)) {
                 mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_notch_rtl);
                 mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_notch_rtl);
             } else {
                 mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_rtl);
                 mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_rtl);
             }
-        } else if (hasNotch) {
+        } else if (DeviceUtils.hasNotch(mContext)) {
             mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_notch);
             mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_notch);
         }

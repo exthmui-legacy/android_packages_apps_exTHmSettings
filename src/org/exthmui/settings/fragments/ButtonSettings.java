@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 crDroid Android Project
+ * Copyright (C) 2017-2020 crDroid Android Project
  * Copyright (C) 2020 The exTHmUI OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
