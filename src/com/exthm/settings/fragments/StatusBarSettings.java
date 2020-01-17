@@ -113,7 +113,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mCornerRadius) {
             Settings.Secure.putInt(resolver, Settings.Secure.SYSUI_ROUNDED_SIZE,
