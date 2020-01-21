@@ -1002,4 +1002,8 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <!-- QS data usage -->
+    <string name="qs_datausage_title">在快速设置页眉中显示数据使用情况</string>
+    <string name="qs_datausage_subtitle">在快速设置页眉中显示SIM卡数据使用情况</string>
 </resources>
