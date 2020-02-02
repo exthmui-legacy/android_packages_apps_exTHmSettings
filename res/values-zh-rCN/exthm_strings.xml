@@ -949,6 +949,13 @@
     <string name="fod_recog_animation_summary">在识别手指时显示动画</string>
     <string name="fod_recog_animation_effect_title">屏幕指纹识别动画效果</string>
 
+    <!-- FOD pressed state behavior -->
+    <string name="fod_pressed_state_title">屏幕指纹按压状态行为</string>
+    <string name="fod_pressed_state_footer">图标/颜色可能会根据您使用的设备而变化</string>
+    <string name="fod_pressed_state_icon">图标 (通常是青色)</string>
+    <string name="fod_pressed_state_icon_white">图标 (白色)</string>
+    <string name="fod_pressed_state_solid_color">实心颜色 (通常绿色)</string>
+
     <!-- Custom header -->
     <string name="custom_header_title">自定义顶栏图</string>
     <string name="custom_header_summary">在通知面板顶部显示图像</string>

@@ -91,6 +91,18 @@
                 android:summary="@string/fod_wallpaper_color_summary"
                 android:defaultValue="false" />
 
+            <org.exthmui.settings.preferences.SystemSettingListPreference
+                android:key="fod_pressed_state"
+                android:icon="@drawable/ic_fp"
+                android:dialogTitle="@string/fod_pressed_state_title"
+                android:title="@string/fod_pressed_state_title"
+                android:entries="@array/fod_pressed_state_entries"
+                android:entryValues="@array/fod_pressed_state_values"
+                android:defaultValue="0" />
+
+            <Preference
+                android:summary="@string/fod_pressed_state_footer" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
