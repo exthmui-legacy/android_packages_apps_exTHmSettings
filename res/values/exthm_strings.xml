@@ -285,6 +285,9 @@
     <string name="qs_clock_title">Clock</string>
     <string name="qs_clock_summary">Display clock in quick status bar header</string>
 
+    <!-- QS background opacity -->
+    <string name="qs_panel_alpha_title">Background opacity</string>
+
     <!-- QS Brightness Slider position -->
     <string name="qs_brightness_slider_hide">Hide</string>
     <string name="qs_brightness_slider_top">Top</string>
