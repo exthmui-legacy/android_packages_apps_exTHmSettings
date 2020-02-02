@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2019 crDroid Android Project
+ * Copyright (C) 2016-2020 crDroid Android Project
  * Copyright (C) 2020 The exTHmUI OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -43,6 +43,7 @@ import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.quicksettings.CustomHeader;
 import org.exthmui.settings.preferences.CustomSeekBarPreference;
 
 import java.util.List;
@@ -96,7 +97,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements Indexab
                 Settings.System.QS_ROWS_LANDSCAPE, 2, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_ROWS_PORTRAIT, 2, UserHandle.USER_CURRENT);
-        
+        CustomHeader.reset(mContext);
     }
 
     @Override

@@ -114,6 +114,14 @@
             android:title="@string/battery_estimate_title"
             android:summary="@string/battery_estimate_summary" />
 
+        <!-- Custom header -->
+        <Preference
+            android:key="custom_header"
+            android:icon="@drawable/ic_header"
+            android:fragment="org.exthmui.settings.fragments.quicksettings.CustomHeader"
+            android:title="@string/custom_header_title"
+            android:summary="@string/custom_header_summary" />
+
         <!-- QS clock -->
         <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="show_qs_clock"

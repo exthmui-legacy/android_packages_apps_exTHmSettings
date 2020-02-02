@@ -945,4 +945,24 @@
     <string name="fod_recog_animation">屏幕指纹识别动画</string>
     <string name="fod_recog_animation_summary">在识别手指时显示动画</string>
     <string name="fod_recog_animation_effect_title">屏幕指纹识别动画效果</string>
+
+    <!-- Custom header -->
+    <string name="custom_header_title">自定义顶栏图</string>
+    <string name="custom_header_summary">在通知面板顶部显示图像</string>
+    <string name="daylight_header_pack_title">顶部图像收集</string>
+    <string name="status_bar_custom_header_shadow_title">顶部图像阴影</string>
+    <string name="status_bar_custom_header_shadow_summary">在明亮的图片上有更好的可见性</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">静态图像</string>
+    <string name="daylight_header_provider_title">图像收集</string>
+    <string name="custom_header_provider_title">顶部图像</string>
+    <string name="custom_header_browse_title">浏览已安装的顶栏图</string>
+    <string name="custom_header_browse_summary">单击任何图像以用于静态模式</string>
+    <string name="custom_header_browse_summary_new">浏览所有可用的顶部图像集合</string>
+    <string name="custom_header_pick_title">选择顶部图像</string>
+    <string name="custom_header_pick_summary">选择用于静态模式的图像</string>
+    <string name="header_provider_disabled">禁用</string>
+    <string name="file_header_select_title">选择图像</string>
+    <string name="file_header_select_summary">选择自定义图像</string>
+    <string name="file_header_provider_title">自定义图像</string>
 </resources>
