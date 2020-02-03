@@ -982,4 +982,7 @@
     <string name="back_options_dialog_title">选项</string>
     <string name="back_height_message">屏幕高度用作返回手势的可触摸区域</string>
     <string name="back_gesture_haptic">启用返回手势的点振动效果</string>
+
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">隐藏导航栏药丸以实现无缝的全屏手势</string>
 </resources>
