@@ -1003,4 +1003,8 @@
 
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
+
+    <!-- \new device identifier access restrictions -->
+    <string name="device_identifier_access_restrictions_title">Disable device identifier restrictions</string>
+    <string name="device_identifier_access_restrictions_summary">Disable the new access restrictions for device identifiers</string>
 </resources>

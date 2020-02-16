@@ -33,6 +33,13 @@
         android:summary="@string/gaming_mode_summary"
         android:fragment="org.exthmui.settings.fragments.misc.GamingMode"/>
 
+    <!-- Disable device identifier restrictions -->
+    <org.exthmui.settings.preferences.GlobalSettingSwitchPreference
+        android:key="privileged_device_identifier_check_relaxed"
+        android:icon="@drawable/ic_identifier"
+        android:title="@string/device_identifier_access_restrictions_title"
+        android:summary="@string/device_identifier_access_restrictions_summary" />
+
     <!-- HAFR -->
     <Preference
         android:icon="@drawable/ic_hafr"
