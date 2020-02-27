@@ -52,11 +52,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     public static final String TAG = "NotificationSettings";
 
+    private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
     private static final String BATTERY_LIGHTS_PREF = "battery_lights";
     private static final String NOTIFICATION_LIGHTS_PREF = "notification_lights";
     private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
     private static final String TICKER_SETTINGS = "ticker_settings";
 
+    private Preference mAlertSlider;
     private Preference mBatLights;
     private Preference mNotLights;
     private Preference mTickerSettings;
@@ -73,6 +75,12 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
+
+        mAlertSlider = (Preference) prefScreen.findPreference(ALERT_SLIDER_PREF);
+        boolean mAlertSliderAvailable = res.getBoolean(
+                com.android.internal.R.bool.config_hasAlertSlider);
+        if (!mAlertSliderAvailable)
+            prefScreen.removePreference(mAlertSlider);
 
         mTickerSettings = (Preference) prefScreen.findPreference(TICKER_SETTINGS);
         if (DeviceUtils.hasNotch(mContext))
@@ -105,6 +113,8 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         ContentResolver resolver = mContext.getContentResolver();
         Settings.Global.putInt(resolver,
                 Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 1);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.ALERT_SLIDER_NOTIFICATIONS, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LESS_BORING_HEADS_UP, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -153,6 +163,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
                     if (DeviceUtils.hasNotch(context))
                         keys.add(TICKER_SETTINGS);
+
+                    boolean mAlertSliderAvailable = res.getBoolean(
+                            com.android.internal.R.bool.config_hasAlertSlider);
+                    if (!mAlertSliderAvailable)
+                        keys.add(ALERT_SLIDER_PREF);
 
                     boolean mBatLightsSupported = res.getInteger(
                             org.lineageos.platform.internal.R.integer.config_deviceLightCapabilities) >= 64;
