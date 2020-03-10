@@ -62,11 +62,13 @@
             android:summary="@string/music_visualizer_summary"
             android:fragment="org.exthmui.settings.fragments.lockscreen.LockScreenVisualizer" />
 
-        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_charging_animation"
+        <org.exthmui.settings.preferences.SystemSettingListPreference
+            android:key="lockscreen_charging_animation_style"
             android:icon="@drawable/ic_flash_outline"
             android:title="@string/lockscreen_charging_animation_title"
-            android:defaultValue="true" />
+            android:entries="@array/lockscreen_charging_animation_entries"
+            android:entryValues="@array/lockscreen_charging_animation_values"
+            android:defaultValue="1" />
 
         <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
