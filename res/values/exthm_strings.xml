@@ -697,33 +697,6 @@
     <string name="status_bar_padding">Statusbar extra padding</string>
     <string name="corner_fwvals">Use default values</string>
 
-    <!-- Themes -->
-    <string name="style_title">Style</string>
-    <string name="style_summary">Choose system colors and styles</string>
-    <string name="style_dark_theme_title">Dark theme</string>
-    <string name="style_dark_theme_automatic">Automatic (wallpaper)</string>
-    <string name="style_dark_theme_disabled">Disabled</string>
-    <string name="style_dark_theme_enabled">Enabled</string>
-    <string name="style_dark_theme_livedisplay">Automatic (livedisplay)</string>
-    <string name="accent_picker_dialog_title">Select an accent color</string>
-    <string name="theme_accent_picker_title">Accent color</string>
-    <string name="theme_accent_picker_summary">Select system theme accent color</string>
-    <string name="theme_accent_picker_default">Default</string>
-    <string name="accent_picker_material_colors">Material palette</string>
-    <string name="accent_picker_custom_colors">User requested</string>
-    <string name="accent_picker_brand_colors">Brand colors</string>
-    <string name="style_dark_overlay_title">Dark mode</string>
-    <string name="style_dark_overlay_default">Deep Grey</string>
-    <string name="style_dark_overlay_charcoal_black">Charcoal Black</string>
-    <string name="style_dark_overlay_amoled_black">Amoled Black</string>
-    <string name="style_notification_title">Notification style</string>
-    <string name="style_notification_auto">Automatic (system theme)</string>
-    <string name="style_notification_light">Light</string>
-    <string name="style_notification_dark">Deep Grey</string>
-    <string name="style_notification_black">Amoled Black</string>
-    <string name="style_and_wallpaper_title">Styles &amp; wallpapers</string>
-    <string name="style_and_wallpaper_summary">Select accent color, clock interface and more</string>
-
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_title">Volume panel</string>
     <string name="audio_panel_view_summary">Customize volume panel dialog</string>

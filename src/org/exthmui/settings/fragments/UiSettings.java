@@ -48,7 +48,6 @@ import org.exthmui.settings.fragments.ui.Animations;
 import org.exthmui.settings.fragments.ui.DozeSettings;
 import org.exthmui.settings.fragments.ui.RoundedCorners;
 import org.exthmui.settings.fragments.ui.SmartPixels;
-import org.exthmui.settings.fragments.ui.ThemeSettings;
 import org.exthmui.settings.utils.DeviceUtils;
 
 import java.util.ArrayList;
@@ -88,11 +87,12 @@ public class UiSettings extends SettingsPreferenceFragment implements Indexable 
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.BERRY_DARK_STYLE, 0, UserHandle.USER_CURRENT);
         Animations.reset(mContext);
         DozeSettings.reset(mContext);
         RoundedCorners.reset(mContext);
         SmartPixels.reset(mContext);
-        ThemeSettings.reset(mContext);
     }
 
     @Override
