@@ -468,4 +468,31 @@
     <string name="content_padding">边角内容填充</string>
     <string name="status_bar_padding">状态栏附加填充</string>
     <string name="corner_fwvals">使用默认值</string>
+
+     <!-- Themes -->
+    <string name="style_title">样式</string>
+    <string name="style_summary">选择系统颜色和样式</string>
+    <string name="style_dark_theme_title">暗色主题</string>
+    <string name="style_dark_theme_automatic">自动 (壁纸)</string>
+    <string name="style_dark_theme_disabled">禁用</string>
+    <string name="style_dark_theme_enabled">启用</string>
+    <string name="style_dark_theme_livedisplay">自动 (livedisply)</string>
+    <string name="accent_picker_dialog_title">选择一种强调色</string>
+    <string name="theme_accent_picker_title">强调颜色</string>
+    <string name="theme_accent_picker_summary">选择系统主题强调色</string>
+    <string name="theme_accent_picker_default">默认值</string>
+    <string name="accent_picker_material_colors">材质调色板</string>
+    <string name="accent_picker_custom_colors">用户请求</string>
+    <string name="accent_picker_brand_colors">品牌颜色</string>
+    <string name="style_dark_overlay_title">暗色主题</string>
+    <string name="style_dark_overlay_default">深灰色</string>
+    <string name="style_dark_overlay_charcoal_black">墨色</string>
+    <string name="style_dark_overlay_amoled_black">纯黑</string>
+    <string name="style_notification_title">通知样式</string>
+    <string name="style_notification_auto">自动 (系统主题)</string>
+    <string name="style_notification_light">亮色</string>
+    <string name="style_notification_dark">深灰色</string>
+    <string name="style_notification_black">复古黑色</string>
+    <string name="style_and_wallpaper_title">样式 &amp; 壁纸</string>
+    <string name="style_and_wallpaper_summary">选择强调色、时钟样式和更多</string>
 </resources>

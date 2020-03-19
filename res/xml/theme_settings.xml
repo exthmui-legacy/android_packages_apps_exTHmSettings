@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-2020 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/style_title">
+
+    <Preference
+        android:key="theme_picker"
+        android:title="@string/style_and_wallpaper_title"
+        android:summary="@string/style_and_wallpaper_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.wallpaper"
+                android:targetClass="com.android.customization.picker.CustomizationPickerActivity" />
+    </Preference>
+
+    <org.exthmui.settings.preferences.SystemSettingListPreference
+        android:key="berry_dark_style"
+        android:title="@string/style_dark_overlay_title"
+        android:entries="@array/dark_overlay_entries"
+        android:entryValues="@array/dark_overlay_values"
+        android:defaultValue="0" />
+
+</PreferenceScreen>
