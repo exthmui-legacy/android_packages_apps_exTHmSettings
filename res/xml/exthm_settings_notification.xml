@@ -18,4 +18,51 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title" >
 
+    <PreferenceCategory
+        android:key="heads_up"
+        android:title="@string/heads_up_category">
+
+        <org.exthmui.settings.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:icon="@drawable/ic_headsup"
+            android:title="@string/notification_heads_up_title"
+            android:summary="@string/notification_heads_up_summary"
+            android:defaultValue="true" />
+
+        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:icon="@drawable/ic_headsup_sleep"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false"
+            android:dependency="heads_up_notifications_enabled" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/light_brightness_category">
+
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="allow_lights"
+            android:icon="@drawable/ic_led_on"
+            android:title="@string/zen_allow_lights"
+            android:summary="@string/zen_allow_lights_summary"
+            android:defaultValue="true" />
+
+        <!-- Battery light -->
+        <PreferenceScreen
+            android:key="battery_lights"
+            android:icon="@drawable/ic_led_on"
+            android:title="@string/battery_light_title"
+            android:summary="@string/battery_light_summary"
+            android:fragment="org.exthmui.settings.fragments.notifications.notificationlight.BatteryLightSettings" />
+
+        <!-- Notification lights -->
+        <PreferenceScreen
+            android:key="notification_lights"
+            android:icon="@drawable/ic_led_on"
+            android:title="@string/notification_light_title"
+            android:summary="@string/notification_light_summary"
+            android:fragment="org.exthmui.settings.fragments.notifications.notificationlight.NotificationLightSettings" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
