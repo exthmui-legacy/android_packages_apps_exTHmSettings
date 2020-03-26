@@ -41,6 +41,7 @@ import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 
 import org.exthmui.settings.R;
+import org.exthmui.settings.fragments.notifications.VibrationSettingsPreferenceFragment;
 import org.exthmui.settings.fragments.notifications.Ticker;
 import org.exthmui.settings.utils.DeviceUtils;
 
@@ -125,6 +126,8 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
                 Settings.System.VIBRATE_ON_NOTIFICATIONS, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.FLASHLIGHT_ON_CALL, 0, UserHandle.USER_CURRENT);
+        VibrationSettingsPreferenceFragment.reset(mContext);
+        Ticker.reset(mContext);
     }
 
     @Override
