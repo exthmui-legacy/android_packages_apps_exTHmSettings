@@ -215,6 +215,10 @@
     <string name="lockscreen_enable_power_menu_title">电源菜单</string>
     <string name="lockscreen_enable_power_menu_summary">在安全锁定屏幕上允许访问电源菜单</string>
 
+    <!-- Quick settings on secure lockscreen -->
+    <string name="lockscreen_enable_qs_title">快速设置</string>
+    <string name="lockscreen_enable_qs_summary">在安全锁定屏幕上允许访问快速设置</string>
+
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_vibrate_title">验证指纹时震动</string>
     <string name="fp_success_vibrate_summary">验证指纹成功时震动</string>

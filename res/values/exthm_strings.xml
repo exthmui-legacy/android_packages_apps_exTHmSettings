@@ -215,7 +215,11 @@
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lock screen</string>
+    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+
+    <!-- Quick settings on secure lockscreen -->
+    <string name="lockscreen_enable_qs_title">Quick settings</string>
+    <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
 
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
