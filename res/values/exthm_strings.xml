@@ -988,7 +988,7 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
 
-    <!-- \new device identifier access restrictions -->
+    <!-- new device identifier access restrictions -->
     <string name="device_identifier_access_restrictions_title">Disable device identifier restrictions</string>
     <string name="device_identifier_access_restrictions_summary">Disable the new access restrictions for device identifiers</string>
 
@@ -1027,4 +1027,36 @@
 
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- About phone screen, setting option name [CHAR LIMIT=40] -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+
+    <!-- Dark overlay -->
+    <string name="style_dark_overlay_title">Dark mode</string>
+    <string name="style_dark_overlay_default">Deep Grey</string>
+    <string name="style_dark_overlay_charcoal_black">Charcoal Black</string>
+    <string name="style_dark_overlay_amoled_black">Amoled Black</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
+    <string name="refresh_rate_summary_auto">Auto / Automatically raises the refresh rate from 60 to 90Hz for some content</string>
+    <string name="refresh_rate_summary_60">60Hz / Refresh rate locked at 60Hz for all content</string>
+    <string name="refresh_rate_summary_90">90Hz / Refresh rate locked at 90Hz for all content. Increased battery usage</string>
+    <string name="auto_refresh_rate">Auto</string>
+
+    <!-- Quick unlock -->
+   <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 </resources>

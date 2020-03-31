@@ -91,4 +91,11 @@
         <item>2</item>
     </string-array>
 
+    <!-- Interval seekbar -->
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="minI" format="float" />
+        <attr name="maxI" format="float" />
+        <attr name="defaultValuePure" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
 </resources>

@@ -1016,4 +1016,36 @@
     <string name="ringtone1_title">电话铃声 - SIM 卡1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">电话铃声 - SIM 卡2</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google 应用商店</string>
+
+    <!-- About phone screen, setting option name [CHAR LIMIT=40] -->
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">禁用</string>
+    <string name="selinux_status_permissive">许可</string>
+    <string name="selinux_status_enforcing">执行中</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">平台</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">内存总计</string>
+
+    <!-- Dark overlay -->
+    <string name="style_dark_overlay_title">暗色主题</string>
+    <string name="style_dark_overlay_default">深灰色</string>
+    <string name="style_dark_overlay_charcoal_black">墨色</string>
+    <string name="style_dark_overlay_amoled_black">纯黑</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">屏幕刷新率</string>
+    <string name="refresh_rate_summary_auto">自动/自动将某些内容的刷新率从 60Hz 提升到 90Hz</string>
+    <string name="refresh_rate_summary_60">60Hz / 刷新率锁定在 60Hz 的所有内容</string>
+    <string name="refresh_rate_summary_90">所有内容的 90Hz / 刷新速率被锁定在 90Hz。增加电池使用量</string>
+    <string name="auto_refresh_rate">自动</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的 PIN/密码时自动解锁</string>
 </resources>
