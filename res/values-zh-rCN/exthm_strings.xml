@@ -802,12 +802,6 @@
     <string name="flashlight_on_call_dnd">仅在 dnd 模式下</string>
     <string name="flashlight_on_call_always">始终</string>
 
-    <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">通话振动选项</string>
-    <string name="incall_vibrate_connect_title">接通时振动</string>
-    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
-    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
-
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_title">侧边亮屏</string>
     <string name="pulse_ambient_light_summary">在通知脉冲上照亮屏幕的侧面边缘</string>
