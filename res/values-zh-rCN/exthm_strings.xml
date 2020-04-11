@@ -1036,9 +1036,10 @@
 
     <!-- Refresh rate -->
     <string name="refresh_rate_title">屏幕刷新率</string>
-    <string name="refresh_rate_summary_auto">自动/自动将某些内容的刷新率从 60Hz 提升到 90Hz</string>
-    <string name="refresh_rate_summary_60">60Hz / 刷新率锁定在 60Hz 的所有内容</string>
-    <string name="refresh_rate_summary_90">所有内容的 90Hz / 刷新速率被锁定在 90Hz。增加电池使用量</string>
+    <string name="refresh_rate_summary_automatic">自动选择刷新率</string>
+    <string name="refresh_rate_summary_60">刷新率锁定在 60Hz</string>
+    <string name="refresh_rate_summary_90">刷新率锁定在 90Hz</string>
+    <string name="refresh_rate_summary_120">刷新率锁定在 120Hz</string>
     <string name="auto_refresh_rate">自动</string>
 
     <!-- Quick unlock -->
