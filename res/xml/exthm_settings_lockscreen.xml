@@ -143,6 +143,13 @@
             android:summary="@string/double_tap_sleep_anywhere_summary"
             android:defaultValue="true" />
 
+
+        <org.exthmui.settings.preferences.SecureSettingSwitchPreference
+            android:key="unlock_without_bouncer"
+            android:icon="@drawable/ic_fp"
+            android:title="@string/unlock_without_bouncer_title"
+            android:summary="@string/unlock_without_bouncer_summary" />
+    
         <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="fp_success_vibrate"
             android:icon="@drawable/ic_fp"

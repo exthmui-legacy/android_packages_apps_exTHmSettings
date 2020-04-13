@@ -1045,4 +1045,8 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">输入正确的 PIN/密码时自动解锁</string>
+
+    <!-- Fingerprint unlock without bouncer -->
+    <string name="unlock_without_bouncer_title">查看通知时使用指纹解锁</string>
+    <string name="unlock_without_bouncer_summary">允许在双击通知后使用指纹解锁设备，而无需输入 PIN/密码/图案</string>
 </resources>

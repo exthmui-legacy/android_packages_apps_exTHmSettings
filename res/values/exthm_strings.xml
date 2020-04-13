@@ -1054,6 +1054,11 @@
     <string name="auto_refresh_rate">Auto</string>
 
     <!-- Quick unlock -->
-   <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+    <!-- Fingerprint unlock without bouncer -->
+    <string name="unlock_without_bouncer_title">Use fingerprint unlock to view notification</string>
+    <string name="unlock_without_bouncer_summary">Allows to unlock device with fingerprint on notification double tap without need to input pin/password/pattern</string>
+
 </resources>
