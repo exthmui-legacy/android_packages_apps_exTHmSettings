@@ -235,7 +235,6 @@
     <string name="power_menu_reboot_title">重启菜单</string>
     <string name="power_menu_screenshot_title">屏幕截图</string>
     <string name="power_menu_screenshot_summary">长按以进行局部截图</string>
-    <string name="power_menu_screenrecord_title">屏幕录制</string>
     <string name="power_menu_airplane_title">飞行模式</string>
     <string name="power_menu_users_title">用户切换器</string>
     <string name="power_menu_settings_title">设置快捷方式</string>
