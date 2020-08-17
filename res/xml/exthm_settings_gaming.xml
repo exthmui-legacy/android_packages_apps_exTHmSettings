@@ -73,7 +73,6 @@
         <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
             android:key="gaming_mode_performance_level"
             android:title="@string/gaming_mode_performance_title"
-            android:summary="@string/gaming_mode_performance_summary"
             android:defaultValue="5"
             android:max="6"
             settings:min="0"
