@@ -90,4 +90,13 @@
     <string name="gaming_mode_dynamic_add_title">动态添加</string>
     <string name="gaming_mode_dynamic_add_summary">自动添加检测到的游戏到列表中</string>
 
+    <string name="gaming_mode_show_danmaku_title">显示弹幕</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">动态过滤通知</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">自动过滤下载进度之类的通知</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">弹幕大小 (水平方向)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">弹幕大小  (垂直方向)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">弹幕速度 (水平方向)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">弹幕速度 (垂直方向)</string>
+    <string name="gaming_mode_danmaku_blacklist">黑名单</string>
+
 </resources>
