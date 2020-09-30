@@ -101,4 +101,6 @@
 
     <!-- Theme -->
     <string name="theme_title">主题</string>
+    <!-- YellowPage -->
+    <string name="yellowpage_title">黄页</string>
 </resources>
