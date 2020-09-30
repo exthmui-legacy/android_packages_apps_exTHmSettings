@@ -110,4 +110,6 @@
     <!-- Screenshot compression -->
     <string name="screenshot_compression_title">屏幕截图质量</string>
     <string name="screenshot_compression_summary">压缩屏幕截图大小从而使图像质量下降</string>
+    <!-- Theme -->
+    <string name="theme_title">主题</string>
 </resources>
