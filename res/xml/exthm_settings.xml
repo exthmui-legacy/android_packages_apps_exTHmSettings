@@ -88,6 +88,16 @@
             android:icon="@drawable/ic_settings_miscs"/>
         -->
 
+        <!-- Theme -->
+        <PreferenceScreen
+            android:key="theme"
+            android:title="@string/theme_title"
+            android:icon="@drawable/ic_settings_theme">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.exthmui.theme"
+                    android:targetClass="org.exthmui.theme.ThemePickerActivity" />
+        </PreferenceScreen>
+
         <!-- Gaming mode -->
         <Preference
             android:key="gaming_category"

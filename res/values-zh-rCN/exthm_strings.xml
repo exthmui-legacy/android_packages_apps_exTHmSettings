@@ -99,4 +99,6 @@
     <string name="gaming_mode_danmaku_speed_vertical_title">弹幕速度 (垂直方向)</string>
     <string name="gaming_mode_danmaku_blacklist">黑名单</string>
 
+    <!-- Theme -->
+    <string name="theme_title">主题</string>
 </resources>
