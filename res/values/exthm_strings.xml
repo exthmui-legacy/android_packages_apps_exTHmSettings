@@ -116,4 +116,6 @@
 
     <!-- Theme -->
     <string name="theme_title">Theme</string>
+    <!-- YellowPage -->
+    <string name="yellowpage_title">YellowPage</string>
 </resources>

@@ -112,4 +112,6 @@
     <string name="screenshot_compression_summary">压缩屏幕截图大小从而使图像质量下降</string>
     <!-- Theme -->
     <string name="theme_title">主题</string>
+    <!-- YellowPage -->
+    <string name="yellowpage_title">黄页</string>
 </resources>
