@@ -17,13 +17,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/exthmui_settings_title" >
 
-        <!-- Status Bar
+        <!-- Status Bar -->
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="org.exthmui.settings.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/>
-        -->
+
         <!-- Quick Settings panel
         <Preference
             android:key="quicksettings_category"
@@ -32,23 +32,21 @@
             android:icon="@drawable/ic_settings_quicksettings"/>
         -->
 
-        <!-- Buttons
+        <!-- Buttons -->
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="org.exthmui.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
-        -->
 
-        <!-- Navigation Bar
+        <!-- Navigation Bar -->
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
             android:fragment="org.exthmui.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
-        -->
 
-        <!-- Lock Screen
+        <!-- Lock Screen 
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
