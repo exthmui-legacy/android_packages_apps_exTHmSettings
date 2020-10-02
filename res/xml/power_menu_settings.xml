@@ -20,26 +20,26 @@
     android:key="power_menu"
     android:title="@string/power_menu_title">
 
-    <SwitchPreference
+    <CheckBoxPreference
         android:key="screenshot"
         android:icon="@drawable/ic_screenshot"
         android:title="@string/power_menu_screenshot_title"
         android:summary="@string/power_menu_screenshot_summary"
         android:defaultValue="false" />
 
-    <SwitchPreference
+    <CheckBoxPreference
         android:key="airplane"
         android:icon="@drawable/ic_airplane_mode"
         android:title="@string/power_menu_airplane_title"
         android:defaultValue="false" />
 
-    <SwitchPreference
+    <CheckBoxPreference
         android:key="users"
         android:icon="@drawable/ic_user"
         android:title="@string/power_menu_users_title"
         android:defaultValue="false" />
 
-    <SwitchPreference
+    <CheckBoxPreference
         android:key="lockdown"
         android:icon="@drawable/ic_lock_outline"
         android:title="@string/power_menu_lockdown_title"
