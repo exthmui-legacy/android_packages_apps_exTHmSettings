@@ -40,6 +40,13 @@
         android:summary="@string/ticker_screen_summary"
         android:fragment="org.exthmui.settings.fragments.statusbar.Ticker"/>
 
+    <!-- Statusbar Lyric -->
+    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_show_lyric"
+        android:title="@string/status_bar_show_lyric_title"
+        android:summary="@string/status_bar_show_lyric_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">
 

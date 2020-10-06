@@ -313,4 +313,8 @@
     <string name="ticker_animation_mode_alpha_fade">淡入淡出</string>
     <string name="ticker_animation_mode_scroll">滚动</string>
     <string name="ticker_tick_duration_title">状态栏通知时长</string>
+
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">状态栏歌词</string>
+    <string name="status_bar_show_lyric_summary">在状态栏中显示歌词 (需要应用程序支持)</string>
 </resources>
