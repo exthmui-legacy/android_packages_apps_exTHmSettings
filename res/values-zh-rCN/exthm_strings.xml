@@ -132,4 +132,8 @@
     <!-- Navigation Bar -->
     <string name="navbar_visibility">导航栏</string>
     <string name="navbar_visibility_summary">切换导航栏的可见性</string>
+    
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">状态栏歌词</string>
+    <string name="status_bar_show_lyric_summary">在状态栏中显示歌词 (需要应用程序支持)</string>
 </resources>
