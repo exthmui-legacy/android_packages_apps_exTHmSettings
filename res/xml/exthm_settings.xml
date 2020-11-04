@@ -32,11 +32,13 @@
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
-        <Preference
+        <PreferenceScreen
             android:key="buttonsettings_category"
             android:title="@string/button_title"
-            android:fragment="org.exthmui.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
+            android:icon="@drawable/ic_settings_buttons">
+            <intent android:action="org.lineageos.lineageparts.BUTTON_SETTINGS"
+                    android:targetPackage="org.lineageos.lineageparts" />
+        </PreferenceScreen>
 
         <!-- Navigation Bar -->
         <Preference
