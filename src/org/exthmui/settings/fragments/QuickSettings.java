@@ -3,6 +3,7 @@ package org.exthmui.settings.fragments;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.os.Bundle;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -24,8 +25,16 @@ import android.view.View;
 import java.util.List;
 import java.util.ArrayList;
 
+import android.provider.SearchIndexableResource;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
+import com.android.settingslib.search.SearchIndexable;
+
+@SearchIndexable
 public class QuickSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        OnPreferenceChangeListener, Indexable {
 
 
     @Override
@@ -50,4 +59,21 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.EXTHMUI_SETTINGS;
     }
 
+    /**
+     * For search
+     */
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.exthm_settings_quicksettings;
+                    result.add(sir);
+
+                    return result;
+                }
+            };
 }

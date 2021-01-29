@@ -21,16 +21,26 @@ package org.exthmui.settings;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.provider.SearchIndexableResource;
 import android.view.Surface;
 import android.preference.Preference;
 import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
 
-public class exTHmSettings extends SettingsPreferenceFragment {
+import com.android.settingslib.search.SearchIndexable;
+
+import java.util.List;
+import java.util.ArrayList;
+
+@SearchIndexable
+public class exTHmSettings extends SettingsPreferenceFragment implements Indexable {
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -72,4 +82,22 @@ public class exTHmSettings extends SettingsPreferenceFragment {
         }
         activity.setRequestedOrientation(frozenRotation);
     }
+
+    /**
+     * For search
+     */
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.exthm_settings;
+                    result.add(sir);
+
+                    return result;
+                }
+            };
 }

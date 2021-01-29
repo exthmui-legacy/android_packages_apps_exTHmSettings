@@ -54,6 +54,8 @@ import org.exthmui.settings.R;
 import org.exthmui.settings.utils.DeviceUtils;
 import org.exthmui.settings.utils.TelephonyUtils;
 
+import com.android.settingslib.search.SearchIndexable;
+
 import org.lineageos.internal.util.ScreenType;
 
 import static org.lineageos.internal.util.DeviceKeysConstants.*;
@@ -64,6 +66,7 @@ import java.util.ArrayList;
 import lineageos.hardware.LineageHardwareManager;
 import lineageos.providers.LineageSettings;
 
+@SearchIndexable
 public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
     private static final String TAG = "ButtonSettings";
@@ -525,7 +528,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,

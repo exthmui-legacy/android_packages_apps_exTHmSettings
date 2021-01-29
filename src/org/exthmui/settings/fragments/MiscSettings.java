@@ -23,11 +23,21 @@ import com.android.settings.R;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
+import java.util.ArrayList;
 
 import com.android.settings.SettingsPreferenceFragment;
 
+import android.provider.SearchIndexableResource;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
+import com.android.settingslib.search.SearchIndexable;
+
+@SearchIndexable
 public class MiscSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        OnPreferenceChangeListener, Indexable {
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -47,4 +57,22 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.EXTHMUI_SETTINGS;
     }
+
+    /**
+     * For search
+     */
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.exthm_settings_misc;
+                    result.add(sir);
+
+                    return result;
+                }
+            };
 }

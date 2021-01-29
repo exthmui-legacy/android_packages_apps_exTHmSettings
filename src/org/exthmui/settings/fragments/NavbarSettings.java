@@ -44,6 +44,9 @@ import java.util.ArrayList;
 
 import lineageos.providers.LineageSettings;
 
+import com.android.settingslib.search.SearchIndexable;
+
+@SearchIndexable
 public class NavbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
 
@@ -111,7 +114,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,

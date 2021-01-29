@@ -54,6 +54,9 @@ import lineageos.providers.LineageSettings;
 
 import org.lineageos.internal.util.FileUtils;
 
+import com.android.settingslib.search.SearchIndexable;
+
+@SearchIndexable
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
 
@@ -257,7 +260,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     /**
      * For search
      */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
