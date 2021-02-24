@@ -147,4 +147,16 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+       android:title="@string/status_bar_misc_category">
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"
+        android:icon="@drawable/ic_three_finger_gesture"
+        android:title="@string/three_finger_gesture"
+        android:summary="@string/three_finger_gesture_summary"
+        android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

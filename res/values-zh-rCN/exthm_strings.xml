@@ -275,6 +275,9 @@
     <string name="status_bar_brightness_slider_show_never">从不显示</string>
     <string name="status_bar_brightness_slider_show_expanded">展开时显示</string>
     <string name="status_bar_brightness_slider_show_always">总是显示</string>
+    <string name="status_bar_misc_category">其他设置</string>
+    <string name="three_finger_gesture">三指截屏</string>
+    <string name="three_finger_gesture_summary">通过在屏幕上滑动三指以进行截屏</string>
     <string name="status_bar_toggle_brightness">亮度控制</string>
     <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动调整亮度</string>
     <string name="network_traffic_settings_title">网络流量监视</string>
