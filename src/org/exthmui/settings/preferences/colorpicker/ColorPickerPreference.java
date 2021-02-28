@@ -37,7 +37,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.exthmui.settings.R;
+import com.android.settings.R;
 
 /**
  * A preference type that allows a user to choose a time
