@@ -136,4 +136,8 @@
     <!-- Status Bar Lyric -->
     <string name="status_bar_show_lyric_title">状态栏歌词</string>
     <string name="status_bar_show_lyric_summary">在状态栏中显示歌词 (需要应用程序支持)</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">三指截屏</string>
+    <string name="three_finger_gesture_summary">通过在屏幕上滑动三指以进行截屏</string>
 </resources>
