@@ -57,4 +57,8 @@
     <!-- OOS style material dismiss all button for notifications -->
     <string name="notification_material_dismiss_button_title">Material dimiss button</string>
     <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+    
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>

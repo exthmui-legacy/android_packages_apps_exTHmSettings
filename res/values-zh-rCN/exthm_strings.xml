@@ -55,4 +55,7 @@
     <string name="notification_material_dismiss_button_title">通知清除按钮</string>
     <string name="notification_material_dismiss_button_summary">用浮动按钮替换清除所有通知文本</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">三指截屏</string>
+    <string name="three_finger_gesture_summary">通过在屏幕上滑动三指以进行截屏</string>
 </resources>
