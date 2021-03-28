@@ -188,4 +188,10 @@
     <!-- Gestures -->
     <string name="system_gestures_title">系统手势</string>
     <string name="system_gestures_summary">自定义其他手势设置</string>
+
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">屏幕关闭动画</string>
+    <string name="screen_off_animation_fade">简单淡入</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">比例</string>
 </resources>
