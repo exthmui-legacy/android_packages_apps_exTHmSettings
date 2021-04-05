@@ -30,6 +30,7 @@
     <string name="sound_title">声音</string>
     <string name="statusbar_title">状态栏</string>
     <string name="ui_title">用户界面</string>
+    <string name="gaming_title">游戏模式</string>
 
     <!-- General strings -->
     <string name="ok">确定</string>
@@ -58,4 +59,51 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">三指截屏</string>
     <string name="three_finger_gesture_summary">通过在屏幕上滑动三指以进行截屏</string>
+
+    <string name="profile_choose_app">选择应用</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">移除所选项目？</string>
+
+    <string name="add_package_to_title">添加应用</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_enabled_title">启用游戏模式</string>
+    <string name="gaming_mode_disable_auto_brightness_title">停用自动亮度</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">进入游戏模式后停用自动亮度</string>
+    <string name="gaming_mode_notification_danmaku_title">通知弹幕</string>
+    <string name="gaming_mode_notification_danmaku_summary">在游戏中以弹幕的形式显示通知内容</string>
+    <string name="gaming_mode_quick_start_apps_title">快速启动应用</string>
+    <string name="gaming_mode_quick_start_apps_summary">配置希望通过悬浮球启动的应用程序</string>
+
+    <string name="gaming_mode_performance">性能</string>
+    <string name="gaming_mode_use_game_driver_title">使用游戏驱动程序</string>
+    <string name="gaming_mode_use_game_driver_summary">为游戏启用特定的驱动程序</string>
+    <string name="gaming_mode_change_performance_title">性能调整</string>
+    <string name="gaming_mode_change_performance_summary">启动游戏时调整性能配置</string>
+    <string name="gaming_mode_performance_title">性能等级</string>
+
+    <string name="gaming_mode_dnd">勿扰</string>
+    <string name="gaming_mode_disable_notification_alert_title">禁止浮动通知</string>
+    <string name="gaming_mode_disable_notification_alert_summary">禁止除来电和闹铃外的浮动通知和对话泡</string>
+    <string name="gaming_mode_disable_ringtone_title">禁止响铃</string>
+    <string name="gaming_mode_disable_ringtone_summary">在游戏中关闭来电与通知的铃声</string>
+    <string name="gaming_mode_auto_answer_call_title">自动接听电话</string>
+    <string name="gaming_mode_auto_answer_call_summary">在游戏中自动接听电话，并在未连接耳机的情况下免提</string>
+
+    <string name="gaming_mode_prevent_accidental_touch">防误触</string>
+    <string name="gaming_mode_disable_hw_keys_title">禁用物理按键</string>
+    <string name="gaming_mode_disable_gesture_title">禁用手势</string>
+
+    <string name="gaming_mode_apps">游戏列表</string>
+    <string name="gaming_mode_dynamic_add_title">动态添加</string>
+    <string name="gaming_mode_dynamic_add_summary">自动添加检测到的游戏到列表中</string>
+
+    <string name="gaming_mode_show_danmaku_title">显示弹幕</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">动态过滤通知</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">自动过滤下载进度之类的通知</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">弹幕大小 (水平方向)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">弹幕大小 (垂直方向)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">弹幕速度 (水平方向)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">弹幕速度 (垂直方向)</string>
+    <string name="gaming_mode_danmaku_blacklist">黑名单</string>
 </resources>
