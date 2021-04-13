@@ -106,4 +106,8 @@
     <string name="gaming_mode_danmaku_speed_horizontal_title">弹幕速度 (水平方向)</string>
     <string name="gaming_mode_danmaku_speed_vertical_title">弹幕速度 (垂直方向)</string>
     <string name="gaming_mode_danmaku_blacklist">黑名单</string>
+
+    <!-- Screenshot compression -->
+    <string name="screenshot_compression_title">屏幕截图质量</string>
+    <string name="screenshot_compression_summary">压缩屏幕截图大小从而使图像质量下降</string>
 </resources>

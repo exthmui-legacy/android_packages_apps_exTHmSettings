@@ -25,5 +25,16 @@
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
         android:defaultValue="false" />
-    
+
+    <!-- Screenshot compression -->
+    <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
+	android:key="screenshot_compression"
+	android:icon="@drawable/ic_screenshot"
+	android:title="@string/screenshot_compression_title"
+	android:summary="@string/screenshot_compression_summary"
+	android:defaultValue="100"
+	android:max="100"
+	settings:min="10"
+	settings:units="%" />
+
 </PreferenceScreen>

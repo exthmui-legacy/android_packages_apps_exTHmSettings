@@ -110,4 +110,8 @@
     <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
     <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
 
+    <!-- Screenshot compression -->
+    <string name="screenshot_compression_title">Screenshot quality</string>
+    <string name="screenshot_compression_summary">Compress screenshot size with loss in image quality</string>
+
 </resources>
