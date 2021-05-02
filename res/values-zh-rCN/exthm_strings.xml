@@ -116,4 +116,15 @@
     <string name="yellowpage_title">黄页</string>
     <!-- Notification background opacity -->
     <string name="notification_alpha_title">通知栏背景不透明度</string>
+
+    <!-- Adaptive Playback -->
+    <string name="media_title">媒体</string>
+    <string name="adaptive_playback_title">自适应播放</string>
+    <string name="adaptive_playback_summary">声音调至0时自动停止播放, 在超时时间内重新调高音量可以恢复播放</string>
+    <string name="adaptive_playback_timeout_title">播放超时</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_1_min">1分钟</string>
+    <string name="adaptive_playback_timeout_2_min">2分钟</string>
+    <string name="adaptive_playback_timeout_5_min">5分钟</string>
+    <string name="adaptive_playback_timeout_10_min">10分钟</string>
 </resources>
