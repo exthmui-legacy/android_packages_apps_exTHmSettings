@@ -118,4 +118,6 @@
     <string name="theme_title">Theme</string>
     <!-- YellowPage -->
     <string name="yellowpage_title">YellowPage</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Notification background opacity</string>
 </resources>

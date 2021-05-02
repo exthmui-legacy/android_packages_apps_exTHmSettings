@@ -18,4 +18,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title" >
 
+    <!-- Notification background opacity -->
+    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+	            android:key="notification_bg_alpha"
+	            android:title="@string/notification_alpha_title"
+	            android:icon="@drawable/ic_invert_colors"
+	            android:defaultValue="255"
+	            android:max="255"
+	            settings:min="0"
+	            settings:units="" />
+
 </PreferenceScreen>
