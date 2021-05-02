@@ -25,4 +25,10 @@
         android:fragment="org.exthmui.settings.fragments.TrafficSettings"
         android:icon="@drawable/ic_settings_traffic" />
 
+     <Preference
+        android:key="ticker_settings"
+        android:title="@string/ticker_screen_title"
+        android:summary="@string/ticker_screen_summary"
+        android:fragment="org.exthmui.settings.fragments.notifications.Ticker"/>
+
 </PreferenceScreen>
