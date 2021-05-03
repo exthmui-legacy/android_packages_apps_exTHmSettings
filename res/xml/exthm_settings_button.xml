@@ -22,13 +22,13 @@
         android:key="media"
         android:title="@string/media_title">
 
-        <org.exthmui.support.preferences.SystemSettingSwitchPreference
+        <org.exthmui.settings.preferences.SystemSettingSwitchPreference
             android:key="adaptive_playback_enabled"
             android:title="@string/adaptive_playback_title"
             android:summary="@string/adaptive_playback_summary"
             android:defaultValue="false" />
 
-        <org.exthmui.support.preferences.SystemSettingListPreference
+        <org.exthmui.settings.preferences.SystemSettingListPreference
             android:key="adaptive_playback_timeout"
             android:title="@string/adaptive_playback_timeout_title"
             android:entries="@array/adaptive_playback_timeout_entries"

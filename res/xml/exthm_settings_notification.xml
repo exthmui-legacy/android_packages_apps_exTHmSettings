@@ -19,7 +19,7 @@
     android:title="@string/notifications_title" >
 
     <!-- Notification background opacity -->
-    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+    <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
 	            android:key="notification_bg_alpha"
 	            android:title="@string/notification_alpha_title"
 	            android:icon="@drawable/ic_invert_colors"
