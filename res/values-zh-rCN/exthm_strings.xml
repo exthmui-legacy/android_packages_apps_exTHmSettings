@@ -184,4 +184,8 @@
     <!-- Status Bar Lyric -->
     <string name="status_bar_show_lyric_title">状态栏歌词</string>
     <string name="status_bar_show_lyric_summary">在状态栏中显示歌词 (需要应用程序支持)</string>
+    
+    <!-- Gestures -->
+    <string name="system_gestures_title">系统手势</string>
+    <string name="system_gestures_summary">自定义其他手势设置</string>
 </resources>
