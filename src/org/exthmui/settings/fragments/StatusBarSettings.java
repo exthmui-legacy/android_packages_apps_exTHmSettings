@@ -22,6 +22,7 @@ import com.android.settings.R;
 
 import java.util.Locale;
 import android.text.TextUtils;
+import android.text.format.DateFormat;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
@@ -34,8 +35,37 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
+import lineageos.preference.LineageSystemSettingListPreference;
+import lineageos.providers.LineageSettings;
+
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+
+    private static final String CATEGORY_BATTERY = "status_bar_battery_key";
+    private static final String CATEGORY_CLOCK = "status_bar_clock_key";
+
+    private static final String ICON_BLACKLIST = "icon_blacklist";
+
+    private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
+    private static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
+    private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
+    private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
+
+    private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 2;
+
+    private static final int PULLDOWN_DIR_NONE = 0;
+    private static final int PULLDOWN_DIR_RIGHT = 1;
+    private static final int PULLDOWN_DIR_LEFT = 2;
+
+    private LineageSystemSettingListPreference mQuickPulldown;
+    private LineageSystemSettingListPreference mStatusBarClock;
+    private LineageSystemSettingListPreference mStatusBarAmPm;
+    private LineageSystemSettingListPreference mStatusBarBattery;
+    private LineageSystemSettingListPreference mStatusBarBatteryShowPercent;
+
+    private PreferenceCategory mStatusBarBatteryCategory;
+    private PreferenceCategory mStatusBarClockCategory;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -45,12 +75,88 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
+        mStatusBarAmPm = findPreference(STATUS_BAR_AM_PM);
+        mStatusBarClock = findPreference(STATUS_BAR_CLOCK_STYLE);
+        mStatusBarClock.setOnPreferenceChangeListener(this);
+
+        mStatusBarClockCategory = getPreferenceScreen().findPreference(CATEGORY_CLOCK);
+
+        mStatusBarBatteryShowPercent = findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
+        mStatusBarBattery = findPreference(STATUS_BAR_BATTERY_STYLE);
+        mStatusBarBattery.setOnPreferenceChangeListener(this);
+        enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
+
+        mStatusBarBatteryCategory = getPreferenceScreen().findPreference(CATEGORY_BATTERY);
+
+        mQuickPulldown = findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
+        mQuickPulldown.setOnPreferenceChangeListener(this);
+        updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
+
+    }
+    
+    @Override
+    public void onResume() {
+        super.onResume();
+
+    final String curIconBlacklist = Settings.Secure.getString(getContext().getContentResolver(),
+                ICON_BLACKLIST);
+
+        if (TextUtils.delimitedStringContains(curIconBlacklist, ',', "clock")) {
+            getPreferenceScreen().removePreference(mStatusBarClockCategory);
+        } else {
+            getPreferenceScreen().addPreference(mStatusBarClockCategory);
+        }
+
+        if (TextUtils.delimitedStringContains(curIconBlacklist, ',', "battery")) {
+            getPreferenceScreen().removePreference(mStatusBarBatteryCategory);
+        } else {
+            getPreferenceScreen().addPreference(mStatusBarBatteryCategory);
+        }
+
+        if (DateFormat.is24HourFormat(getActivity())) {
+            mStatusBarAmPm.setEnabled(false);
+            mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
+        }
+
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        int value = Integer.parseInt((String) newValue);
+        String key = preference.getKey();
+        switch (key) {
+            case STATUS_BAR_QUICK_QS_PULLDOWN:
+                updateQuickPulldownSummary(value);
+                break;
+            case STATUS_BAR_BATTERY_STYLE:
+                enableStatusBarBatteryDependents(value);
+                break;
+        }
+        return true;
+    }
 
-        return false;
+    private void enableStatusBarBatteryDependents(int batteryIconStyle) {
+        mStatusBarBatteryShowPercent.setEnabled(batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
+    }
+
+    private void updateQuickPulldownSummary(int value) {
+        String summary="";
+        switch (value) {
+            case PULLDOWN_DIR_NONE:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_off);
+                break;
+
+            case PULLDOWN_DIR_LEFT:
+            case PULLDOWN_DIR_RIGHT:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_summary,
+                    getResources().getString(value == PULLDOWN_DIR_LEFT
+                        ? R.string.status_bar_quick_qs_pulldown_summary_left
+                        : R.string.status_bar_quick_qs_pulldown_summary_right));
+                break;
+        }
+        mQuickPulldown.setSummary(summary);
     }
 
     @Override
@@ -58,4 +164,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.EXTHMUI_SETTINGS;
     }
 
+    private int getClockPosition() {
+        return LineageSettings.System.getInt(getActivity().getContentResolver(),
+                STATUS_BAR_CLOCK_STYLE, 2);
+    }
 }
