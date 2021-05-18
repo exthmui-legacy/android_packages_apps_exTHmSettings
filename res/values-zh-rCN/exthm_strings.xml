@@ -145,6 +145,13 @@
     <string name="network_traffic_mode_up">仅上传</string>
     <string name="network_traffic_mode_down">仅下载</string>
     <string name="network_traffic_mode_all">上传和下载</string>
+    <string name="network_traffic_autohide">自动隐藏</string>
+    <string name="network_traffic_autohide_summary">网络不活跃时隐藏状态栏网速图标</string>
+    <string name="network_traffic_autohide_kilobits">kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">网络流量隐藏阈值</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
+    <string name="network_traffic_hidearrow_summary">隐藏流量监控中的箭头</string>
     <string name="network_traffic_show_units">显示单位</string>
     <string name="network_traffic_show_units_summary">是否显示流量测定单位</string>
     <string name="network_traffic_units_title">网速测定单位</string>
