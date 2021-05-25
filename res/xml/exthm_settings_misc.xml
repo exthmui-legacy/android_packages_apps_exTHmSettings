@@ -37,4 +37,11 @@
 	settings:min="10"
 	settings:units="%" />
 
+    <!-- Advanced Reboot-->
+    <lineageos.preference.LineageSecureSettingSwitchPreference
+        android:key="advanced_reboot"
+        android:title="@string/advanced_reboot_title"
+        android:summary="@string/advanced_reboot_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
