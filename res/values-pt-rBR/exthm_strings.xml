@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 The Nitrogen OS
+    Copyright (C) 2020 The exTHmUI Open Source Project
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="exthmui_settings_title">Configuração da exTHmUI</string>
+    <string name="exthmui_settings_summary">Personalize o seu exTHmUI</string>
+    <!-- Categories -->
+    <string name="button_title">Botões</string>
+    <string name="lockscreen_title">Tela de Bloqueio</string>
+    <string name="misc_title">Diversos</string>
+    <string name="navbar_title">Barra de navegação</string>
+    <string name="notifications_title">Notificações</string>
+    <string name="quicksettings_title">Configurações Rápidas</string>
+    <string name="sound_title">Som</string>
+    <string name="statusbar_title">Barra de Status</string>
+    <string name="ui_title">Interface de Usuário</string>
+    <string name="gaming_title">Modo Jogo</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Resetar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selecionar Cores</string>
+    <string name="press_color_to_apply">Toque na cor abaixo para aplicar</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Definir</string>
+    <string name="color_default">Padrão</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Por padrão</string>
+    <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nSegure para definir</string>
+    <string name="custom_seekbar_default_value_is_set">Valor padrão é definido</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Botão de dispensar</string>
+    <string name="notification_material_dismiss_button_summary">Substituir o texto limpar todas a notificações por botão flutuante</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslize para captura de tela</string>
+    <string name="three_finger_gesture_summary">Deslize os 3 dedos para captura de tela</string>
+    <string name="profile_choose_app">Escolha o aplicativo</string>
+    <string name="dialog_delete_title">Deletar</string>
+    <string name="dialog_delete_message">Remover o item selecionado?</string>
+    <string name="add_package_to_title">Adicionar uma aplicação</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_enabled_title">Ativar o Modo Jogo</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Desativar o brilho automático</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Desativar o brilho automático quando entrar no modo de jogo</string>
+    <string name="gaming_mode_notification_danmaku_title">Notificação de Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Exibe o conteúdo da notificação na forma de danmaku no jogo</string>
+    <string name="gaming_mode_quick_start_apps_title">Apps de Inicialização Rápida</string>
+    <string name="gaming_mode_quick_start_apps_summary">Escolha o aplicativo que deseja lançar como uma bolha flutuante</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Usar o drive de jogo</string>
+    <string name="gaming_mode_use_game_driver_summary">Usar drivers específicos para os jogos</string>
+    <string name="gaming_mode_change_performance_title">Ajuste de Desempenho</string>
+    <string name="gaming_mode_change_performance_summary">Ajustar o nível de performance quando iniciar o jogo</string>
+    <string name="gaming_mode_performance_title">Nível de Performance</string>
+    <string name="gaming_mode_dnd">Não Perturbe</string>
+    <string name="gaming_mode_disable_notification_alert_title">Desativar alerta de notificação</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Não permitir notificações flutuantes e bolhas de conversa além de chamadas recebidas e alarmes</string>
+    <string name="gaming_mode_disable_ringtone_title">Sem toque</string>
+    <string name="gaming_mode_disable_ringtone_summary">Desligue o toque de ligações incomuns e as notificações no modo de jogo</string>
+    <string name="gaming_mode_auto_answer_call_title">Atender as ligações automaticamente</string>
+    <string name="gaming_mode_auto_answer_call_summary">Atender as ligações automaticamente no jogo e com as mão livres quando os fones de ouvido não estão conectados</string>
+    <string name="gaming_mode_prevent_accidental_touch">prevenir toque acidental</string>
+    <string name="gaming_mode_disable_hw_keys_title">Desativar as chaves de hardware</string>
+    <string name="gaming_mode_disable_gesture_title">Desativar gestos</string>
+    <string name="gaming_mode_apps">Lista de jogos</string>
+    <string name="gaming_mode_dynamic_add_title">Modo dinâmico</string>
+    <string name="gaming_mode_dynamic_add_summary">Tentar detectar e adicionar os jogos automáticamente</string>
+    <string name="gaming_mode_show_danmaku_title">Mostrar o danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Notificação de filtro dinâmico</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Filtrar automaticamente as notificações quando o download está em progresso</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Tamanho do Danmaku (horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Tamanho do Danmaku (vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Velocidade do Danmaku (horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Velocidade do Danmaku (vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist">Lista Negra</string>
+    <!-- Screenshot compression -->
+    <string name="screenshot_compression_title">Qualidade da captura de tela</string>
+    <string name="screenshot_compression_summary">Comprimir o tamanho da captura de tela sem perder a qualidade da imagem</string>
+    <!-- Theme -->
+    <string name="theme_title">Temas</string>
+    <!-- YellowPage -->
+    <string name="yellowpage_title">Página Amarela</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Opacidade do background da notificação</string>
+    <!-- Adaptive Playback -->
+    <string name="media_title">Mídias</string>
+    <string name="adaptive_playback_title">Playback adaptativo</string>
+    <string name="adaptive_playback_summary">Pause a mídia quando o volume estiver mudo e retome-a aumentando o volume dentro do tempo limite</string>
+    <string name="adaptive_playback_timeout_title">Tempo limite do playback</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informação de carga na tela de bloqueio</string>
+    <string name="lockscreen_battery_info_summary">Mostrar o carregamento atual, voltagem e a temperatura da bateria na tela de bloqueio enquanto estiver carregando</string>
+    <!-- Network Traffic -->
+    <string name="trafficsettings_title">Indicador de tráfico</string>
+    <string name="trafficsettings_summary">Configuração do indicador de tráfico na Barra de Status/Cabeçalho</string>
+    <string name="network_traffic_settings_title">Monitor do tráfico de rede</string>
+    <string name="network_traffic_settings_summary">Mostrar e customizar os níveis de tráfego de rede</string>
+    <string name="network_traffic_location_title">Localização</string>
+    <string name="network_traffic_location_disable">Desativado</string>
+    <string name="network_traffic_location_statusbar">Barra de Status</string>
+    <string name="network_traffic_location_quick_statusbar">Barra de Status Rápida</string>
+    <string name="network_traffic_mode_title">Modo Display</string>
+    <string name="network_traffic_mode_up">Somente Upload</string>
+    <string name="network_traffic_mode_down">Somente Download</string>
+    <string name="network_traffic_mode_all">Upload e Download</string>
+    <string name="network_traffic_autohide">Auto esconder</string>
+    <string name="network_traffic_autohide_summary">Esconder o monitor de tráfego quando inativo</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">Limiar inativo</string>
+    <string name="network_traffic_hidearrow">Esconder setas</string>
+    <string name="network_traffic_hidearrow_summary">Esconder seta do indicador de tráfego de rede</string>
+    <string name="network_traffic_show_units">Mostrar unidades</string>
+    <string name="network_traffic_show_units_summary">Mostrar unidades de medição de tráfego</string>
+    <string name="network_traffic_units_title">Unidades de medição de tráfego</string>
+    <string name="network_traffic_units_bits">Bits por segundo (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Bytes por segundo (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes por segundo (Kb/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes por segundo (Mb/s)</string>
+    <string name="network_traffic_refresh_interval_title">Intervalo de Atualização</string>
+    <string name="network_traffic_refresh_interval_summary">Duração após a qual a velocidade é medida novamente</string>
+    <!-- Units -->
+    <string name="unit_seconds">segundos</string>
+    <string name="unit_milliseconds">milisegundos</string>
+    <string name="unit_pixels">dp</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Mostrar as notificações no estilo Ticker na barra de status</string>
+    <string name="ticker_screen_footer">Ticker fica visível apenas quando o alerta de notificação não é mostrado. Os dispositivos com notch devem ocultar o recorte nas configurações da interface do usuário ou nas opções do desenvolvedor.</string>
+    <string name="ticker_title">Ticker na barra de status</string>
+    <string name="ticker_summary">Ativar Ticker na barra de status</string>
+    <string name="ticker_restore_defaults_title">Restaurar os padrões</string>
+    <string name="text_title">Texto</string>
+    <string name="icon_title">Ícone</string>
+    <string name="colors_title">Cores</string>
+    <string name="values_restored_title">Valores restaurados</string>
+    <string name="ticker_disabled">Sem Ticker</string>
+    <string name="ticker_enabled">Ticker da notificação</string>
+    <string name="ticker_media_enabled">Ticker das notificações e música</string>
+    <string name="ticker_animation_mode_title">Estilo de animação para o Ticker</string>
+    <string name="ticker_animation_mode_alpha_fade">Desaparecer</string>
+    <string name="ticker_animation_mode_scroll">Rolagem</string>
+    <string name="ticker_tick_duration_title">Duração do Ticker</string>
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">Letras na barra de status</string>
+    <string name="status_bar_show_lyric_summary">Mostrar letras na barra de status (precisa ter suporte do aplicativo para isso)</string>
+    <!-- Gestures -->
+    <string name="system_gestures_title">Gestos do Sistema</string>
+    <string name="system_gestures_summary">Personalizar outros gestos do sistema</string>
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Animação para tela apagada</string>
+    <string name="screen_off_animation_fade">Esmaecer simples</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Escala</string>
+    <!-- Status bar -->
+    <string name="status_bar_title">Barra de status</string>
+    <string name="status_bar_quick_qs_pulldown_title">Puxar rápido para baixo</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s borda da barra de status puxa para baixo as Configurações Rápidas</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Esquerdo</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Direito</string>
+    <string name="status_bar_quick_qs_pulldown_off">Desligar</string>
+    <string name="status_bar_quick_qs_pulldown_left">Esquerdo</string>
+    <string name="status_bar_quick_qs_pulldown_right">Direito</string>
+    <string name="status_bar_double_tap_to_sleep_title">Toque duplo para dormir</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duplo na barra de status para desligar o display</string>
+    <string name="status_bar_icons_title">Ícones da Barra de Status</string>
+    <string name="status_bar_notif_count_title">Mostrar a contagem na notificação</string>
+    <string name="status_bar_notif_count_summary">Mostrar o número de notificações pendentes</string>
+    <string name="status_bar_system_icons_title">Ícones do Sistema</string>
+    <string name="status_bar_system_icons_summary">Controle quais ícones da barra de status serão mostrados</string>
+    <string name="status_bar_clock_title">Relógio</string>
+    <string name="status_bar_clock_show_seconds_title">Mostrar os segundos</string>
+    <string name="status_bar_clock_show_seconds_summary">Mostrar horas, minutos, e segundos</string>
+    <string name="status_bar_clock_position_title">Posição do relógio</string>
+    <string name="status_bar_clock_position_right">Direito</string>
+    <string name="status_bar_clock_position_left">Esquerdo</string>
+    <string name="status_bar_clock_position_center">Centro</string>
+    <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="status_bar_am_pm_info">Relógio 24-horas está ativado</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Pequeno</string>
+    <string name="status_bar_am_pm_hidden">Escondido</string>
+    <string name="status_bar_battery_title">Indicador de Bateria</string>
+    <string name="status_bar_battery_style_title">Estilo de Status da Bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone de retrato</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Escondido</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Próximo do ícone</string>
+    <string name="status_bar_brightness_category">Brilho</string>
+    <string name="status_bar_brightness_slider_title">Controle deslizante do brilho</string>
+    <string name="status_bar_brightness_slider_summary">Ajuste o brilho nas configurações rápidas</string>
+    <string name="status_bar_brightness_slider_auto_title">Auto Brilho</string>
+    <string name="status_bar_brightness_slider_auto_summary">Mostrar o modo alternar para brilho adaptável perto do controle deslizante</string>
+    <string name="status_bar_brightness_slider_show_never">Nunca mostrar</string>
+    <string name="status_bar_brightness_slider_show_expanded">Mostrar quando expandido</string>
+    <string name="status_bar_brightness_slider_show_always">Sempre mostrar</string>
+    <string name="status_bar_toggle_brightness">Controle de brilho</string>
+    <string name="status_bar_toggle_brightness_summary">Ajustar o brilho apenas deslizando ao redor da barra de status</string>
+</resources>
