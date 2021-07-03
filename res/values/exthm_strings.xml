@@ -115,8 +115,6 @@
     <string name="theme_title">Theme</string>
     <!-- YellowPage -->
     <string name="yellowpage_title">YellowPage</string>
-    <!-- Notification background opacity -->
-    <string name="notification_alpha_title">Notification background opacity</string>
 
     <!-- Adaptive Playback -->
     <string name="media_title">Media</string>
