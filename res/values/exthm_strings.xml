@@ -248,4 +248,8 @@
     <string name="status_bar_brightness_slider_show_always">Show always</string>
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- chinese lunar calendar -->
+    <string name="qs_show_lunar_calendar_title">Chinese Lunar Calendar</string>
+    <string name="qs_show_lunar_calendar_summary">Show lunar calendar in Quick Settings</string>
 </resources>

@@ -247,4 +247,8 @@
     <string name="status_bar_brightness_slider_show_always">总是显示</string>
     <string name="status_bar_toggle_brightness">亮度控制</string>
     <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动调整亮度</string>
+
+    <!-- chinese lunar calendar -->
+    <string name="qs_show_lunar_calendar_title">农历日期</string>
+    <string name="qs_show_lunar_calendar_summary">在快速设置中显示农历日期</string>
 </resources>
