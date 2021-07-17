@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 The Nitrogen OS
+    Copyright (C) 2020 The exTHmUI Open Source Project
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="exthmui_settings_title">Настройки exTHmUI</string>
+    <string name="exthmui_settings_summary">Настройте свою exTHmUI</string>
+    <!-- Categories -->
+    <string name="button_title">Кнопки</string>
+    <string name="lockscreen_title">Экран блокировки</string>
+    <string name="misc_title">Экран блокировки</string>
+    <string name="navbar_title">Панель навигации</string>
+    <string name="notifications_title">Уведомления</string>
+    <string name="quicksettings_title">Быстрые настройки</string>
+    <string name="sound_title">Звук</string>
+    <string name="statusbar_title">Строка состояния</string>
+    <string name="ui_title">Пользовательский интерфейс</string>
+    <string name="gaming_title">Игровой режим</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Сброс</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Выбор цвета</string>
+    <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Задать</string>
+    <string name="color_default">По умолчанию</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">по умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДлительное нажатие для применения</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию задан</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Материал кнопка димисс</string>
+    <string name="notification_material_dismiss_button_summary">Замените текст уведомления \"Очистить все\" на плавающую кнопку</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Проведите пальцем по экрану, чтобы сделать снимок экрана</string>
+    <string name="three_finger_gesture_summary">Проведите пальцем по экрану, чтобы сделать снимок экрана</string>
+    <string name="profile_choose_app">Выберите приложение</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+    <string name="add_package_to_title">Добавить приложение</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_enabled_title">Включить игровой режим</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Отключить автоматическую яркость</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Отключение автоматической яркости во время работы игрового режима</string>
+    <string name="gaming_mode_notification_danmaku_title">Уведомление Данмаку</string>
+    <string name="gaming_mode_notification_danmaku_summary">Отображение содержания уведомления в виде данмаку в игре</string>
+    <string name="gaming_mode_quick_start_apps_title">Приложения для быстрого запуска</string>
+    <string name="gaming_mode_quick_start_apps_summary">Выберите приложение, которое вы хотите запустить с помощью плавающего шарика</string>
+    <string name="gaming_mode_performance">Производительность</string>
+    <string name="gaming_mode_use_game_driver_title">Использовать игровой драйвер</string>
+    <string name="gaming_mode_use_game_driver_summary">Использовать специальные драйвера для игр</string>
+    <string name="gaming_mode_change_performance_title">Настройка производительности</string>
+    <string name="gaming_mode_change_performance_summary">Настройка уровня производительности при запуске игры</string>
+    <string name="gaming_mode_performance_title">Уровень производительности</string>
+    <string name="gaming_mode_dnd">Не беспокоить</string>
+    <string name="gaming_mode_disable_notification_alert_title">Отключить оповещение</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Не разрешать плавающие пузырьки уведомлений и разговоров, кроме входящих вызовов и будильников</string>
+    <string name="gaming_mode_disable_ringtone_title">Не звонить</string>
+    <string name="gaming_mode_disable_ringtone_summary">Отключение звонка входящих вызовов и уведомлений в игровом режиме</string>
+    <string name="gaming_mode_auto_answer_call_title">Автоматический ответ на звонки</string>
+    <string name="gaming_mode_auto_answer_call_summary">Отвечать на звонки автоматически в игре и в режиме громкой связи, когда наушники не подключены</string>
+    <string name="gaming_mode_prevent_accidental_touch">предотвращение случайных прикосновений</string>
+    <string name="gaming_mode_disable_hw_keys_title">Отключить аппаратные кнопки</string>
+    <string name="gaming_mode_disable_gesture_title">Отключить жесты</string>
+    <string name="gaming_mode_apps">Список игр</string>
+    <string name="gaming_mode_dynamic_add_title">Динамический режим</string>
+    <string name="gaming_mode_dynamic_add_summary">Попробовать обнаружить и добавить игры автоматически</string>
+    <string name="gaming_mode_show_danmaku_title">Показывать данмаку</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Уведомление о динамической фильтрации</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Автоматическая фильтрация уведомлений, таких как прогресс загрузки</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Размер данмаку (горизонтальный)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Размер данмаку (вертикальный)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Скорость данмаку (горизонтальная)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Размер данмаку (вертикальный)</string>
+    <string name="gaming_mode_danmaku_blacklist">Черный список</string>
+    <!-- Screenshot compression -->
+    <string name="screenshot_compression_title">Качество скриншота</string>
+    <string name="screenshot_compression_summary">Сжатие размера скриншота с потерей качества изображения</string>
+    <!-- Theme -->
+    <string name="theme_title">Тема</string>
+    <!-- YellowPage -->
+    <string name="yellowpage_title">YellowPage</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Прозрачность фона уведомления</string>
+    <!-- Adaptive Playback -->
+    <string name="media_title">Медиа</string>
+    <string name="adaptive_playback_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_summary">Приостановить мультимедиа при отключении громкости и возобновите его, увеличив громкость в течение тайм-аута</string>
+    <string name="adaptive_playback_timeout_title">Тайм-аут воспроизведения</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока зарядки, напряжения и температуры батареи на экране блокировки во время зарядки</string>
+    <!-- Network Traffic -->
+    <string name="trafficsettings_title">Индикатор трафика</string>
+    <string name="trafficsettings_summary">Настройки индикатора трафика панели состояния/заголовка</string>
+    <string name="network_traffic_settings_title">Мониторинг сетевого трафика</string>
+    <string name="network_traffic_settings_summary">Отображение и настройка стрелок сетевого трафика</string>
+    <string name="network_traffic_location_title">Местоположение</string>
+    <string name="network_traffic_location_disable">Отключен</string>
+    <string name="network_traffic_location_statusbar">Строка состояния</string>
+    <string name="network_traffic_location_quick_statusbar">Быстрая панель состояния</string>
+    <string name="network_traffic_mode_title">Режим индикации</string>
+    <string name="network_traffic_mode_up">Только загрузка</string>
+    <string name="network_traffic_mode_down">Только для скачивания</string>
+    <string name="network_traffic_mode_all">Загрузка и скачивание</string>
+    <string name="network_traffic_autohide">Автоматическое скрытие</string>
+    <string name="network_traffic_autohide_summary">Скрыть мониторинг трафика, когда он неактивен</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">Порог неактивности</string>
+    <string name="network_traffic_hidearrow">Скрывать стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
+    <string name="network_traffic_show_units">Показать единицы</string>
+    <string name="network_traffic_show_units_summary">Нужно ли показывать единицы измерения трафика</string>
+    <string name="network_traffic_units_title">Единицы измерения трафика</string>
+    <string name="network_traffic_units_bits">Бит в секунду (б/с)</string>
+    <string name="network_traffic_units_kilobits">Килобит в секунду (кб/с)</string>
+    <string name="network_traffic_units_megabits">Мегабит в секунду (Мб/с)</string>
+    <string name="network_traffic_units_bytes">Байт в секунду (Б/с)</string>
+    <string name="network_traffic_units_kilobytes">Килобайт в секунду (кБ/с)</string>
+    <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
+    <string name="network_traffic_refresh_interval_title">Интервал обновления</string>
+    <string name="network_traffic_refresh_interval_summary">Продолжительность, после которой скорость измеряется повторно</string>
+    <!-- Units -->
+    <string name="unit_seconds">секунд</string>
+    <string name="unit_milliseconds">миллисекунд</string>
+    <string name="unit_pixels">dp</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Бегущая строка</string>
+    <string name="ticker_screen_summary">Отображение уведомлений в стиле бегущей строки в строке состояния</string>
+    <string name="ticker_screen_footer">Бегущая строка видна только в том случае, если не отображается заставка уведомлений. Устройства с центральным вырезом должны скрывать вырез в настройках пользовательского интерфейса или в опциях разработчика.</string>
+    <string name="ticker_title">Бегущая строка состояния</string>
+    <string name="ticker_summary">Включить бегущую строку состояния</string>
+    <string name="ticker_restore_defaults_title">Восстановить настройки по умолчанию</string>
+    <string name="text_title">Текст</string>
+    <string name="icon_title">Иконка</string>
+    <string name="colors_title">Цвета</string>
+    <string name="values_restored_title">Значения восстановлены</string>
+    <string name="ticker_disabled">Без бегущей строки</string>
+    <string name="ticker_enabled">Бегущая строка уведомлений</string>
+    <string name="ticker_media_enabled">Бегущие медиа-уведомления</string>
+    <string name="ticker_animation_mode_title">Стиль анимации бегущей строки</string>
+    <string name="ticker_animation_mode_alpha_fade">Угасание</string>
+    <string name="ticker_animation_mode_scroll">Прокрутка</string>
+    <string name="ticker_tick_duration_title">Продолжительность бегущей строки</string>
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">Лирика в строке состояния</string>
+    <string name="status_bar_show_lyric_summary">Показывать лирику в строке состояния (нужна поддержка приложения)</string>
+    <!-- Gestures -->
+    <string name="system_gestures_title">Системные жесты</string>
+    <string name="system_gestures_summary">Настройка других параметров жестов</string>
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_fade">Простое угасание</string>
+    <string name="screen_off_animation_crt">ЭЛТ</string>
+    <string name="screen_off_animation_scale">Масштабирование</string>
+    <!-- Status bar -->
+    <string name="status_bar_title">Строка состояния</string>
+    <string name="status_bar_quick_qs_pulldown_title">Быстрое опускание</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s край строки состояния вызывает Быстрые настройки</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Слева</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Справа</string>
+    <string name="status_bar_quick_qs_pulldown_off">Отключено</string>
+    <string name="status_bar_quick_qs_pulldown_left">Слева</string>
+    <string name="status_bar_quick_qs_pulldown_right">Справа</string>
+    <string name="status_bar_double_tap_to_sleep_title">Двойное нажатие для сна</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Дважды нажмите на строку состояния, чтобы выключить дисплей</string>
+    <string name="status_bar_icons_title">Иконки строки состояния</string>
+    <string name="status_bar_notif_count_title">Показывать количество уведомлений</string>
+    <string name="status_bar_notif_count_summary">Отображение количества ожидающих уведомлений</string>
+    <string name="status_bar_system_icons_title">Системные иконки</string>
+    <string name="status_bar_system_icons_summary">Контролируйте, какие значки отображаются в строке состояния</string>
+    <string name="status_bar_clock_title">Часы</string>
+    <string name="status_bar_clock_show_seconds_title">Показывать секунды</string>
+    <string name="status_bar_clock_show_seconds_summary">Показывать часы, минуты и секунды</string>
+    <string name="status_bar_clock_position_title">Местоположение часов</string>
+    <string name="status_bar_clock_position_right">Справа</string>
+    <string name="status_bar_clock_position_left">Слева</string>
+    <string name="status_bar_clock_position_center">Центр</string>
+    <string name="status_bar_am_pm_title">Формат AM/PM</string>
+    <string name="status_bar_am_pm_info">Формат 24 часов</string>
+    <string name="status_bar_am_pm_normal">Стандартный</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Скрыть</string>
+    <string name="status_bar_battery_title">Индикатор батареи</string>
+    <string name="status_bar_battery_style_title">Стиль состояния батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Иконка (портрет)</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_percentage_title">Процент батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрыть</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <string name="status_bar_brightness_category">Яркость</string>
+    <string name="status_bar_brightness_slider_title">Ползунок яркости</string>
+    <string name="status_bar_brightness_slider_summary">Настроить яркость в Быстрых настройках</string>
+    <string name="status_bar_brightness_slider_auto_title">Адаптивная яркость</string>
+    <string name="status_bar_brightness_slider_auto_summary">Показать переключатель для адаптивной яркости рядом с ползунком</string>
+    <string name="status_bar_brightness_slider_show_never">Никогда не показывать</string>
+    <string name="status_bar_brightness_slider_show_expanded">Показать в развернутом виде</string>
+    <string name="status_bar_brightness_slider_show_always">Всегда показывать</string>
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировать яркость, перемещаясь по строке состояния</string>
+</resources>
