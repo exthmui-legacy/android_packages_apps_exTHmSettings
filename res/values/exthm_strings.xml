@@ -111,6 +111,12 @@
     <string name="screenshot_compression_title">Screenshot quality</string>
     <string name="screenshot_compression_summary">Compress screenshot size with loss in image quality</string>
 
+    <!-- Quick Settings -->
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (landscape)</string>
+    <string name="qs_columns_portrait_title">Columns (portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    
     <!-- Theme -->
     <string name="theme_title">Theme</string>
     <!-- YellowPage -->

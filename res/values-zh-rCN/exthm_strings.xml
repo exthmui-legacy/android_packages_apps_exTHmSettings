@@ -194,6 +194,12 @@
     <string name="system_gestures_title">系统手势</string>
     <string name="system_gestures_summary">自定义其他手势设置</string>
 
+    <!-- Quick Settings -->
+    <string name="qs_rows_portrait_title">行（竖屏）</string>
+    <string name="qs_rows_landscape_title">行（横屏）</string>
+    <string name="qs_columns_portrait_title">列（竖屏）</string>
+    <string name="qs_columns_landscape_title">列（横屏）</string>
+
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">屏幕关闭动画</string>
     <string name="screen_off_animation_fade">简单淡入</string>
