@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.UserHandle;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.res.Resources;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -25,9 +26,13 @@ import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.view.View;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import android.util.Log;
+
+import org.exthmui.settings.utils.TelephonyUtils;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -51,6 +56,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
+    private static final String KEY_USE_OLD_MOBILETYPE = "use_old_mobiletype";
 
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 2;
 
@@ -67,6 +73,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private PreferenceCategory mStatusBarBatteryCategory;
     private PreferenceCategory mStatusBarClockCategory;
 
+    private SwitchPreference mOldMobileType;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -77,6 +85,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         mStatusBarAmPm = findPreference(STATUS_BAR_AM_PM);
         mStatusBarClock = findPreference(STATUS_BAR_CLOCK_STYLE);
+        mOldMobileType = findPreference(KEY_USE_OLD_MOBILETYPE);
         mStatusBarClock.setOnPreferenceChangeListener(this);
 
         mStatusBarClockCategory = getPreferenceScreen().findPreference(CATEGORY_CLOCK);
@@ -91,6 +100,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mQuickPulldown = findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
+
+        if(!TelephonyUtils.isVoiceCapable(getActivity())){
+            prefSet.removePreference(mOldMobileType);
+        }
 
     }
     
@@ -118,6 +131,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
         }
 
+    }
+
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.USE_OLD_MOBILETYPE, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
@@ -168,4 +187,20 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         return LineageSettings.System.getInt(getActivity().getContentResolver(),
                 STATUS_BAR_CLOCK_STYLE, 2);
     }
+
+    /**
+     * For search
+     */
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider(R.xml.exthm_settings_statusbar) {
+            @Override
+            public List<String> getNonIndexableKeys(Context context) {
+                List<String> keys = super.getNonIndexableKeys(context);
+                if (!TelephonyUtils.isVoiceCapable(context)) {
+                        keys.add(KEY_USE_OLD_MOBILETYPE);
+                }
+
+                return keys;
+            }
+        };
 }

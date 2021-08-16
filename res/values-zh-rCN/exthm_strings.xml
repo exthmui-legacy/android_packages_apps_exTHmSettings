@@ -66,6 +66,10 @@
 
     <string name="add_package_to_title">添加应用</string>
 
+    <!-- Old mobiletype icon style -->
+    <string name="old_mobiletype_title">旧样式信号图标</string>
+    <string name="old_mobiletype_summary">合并信号和信号类型图标</string>
+
     <!-- Gaming mode -->
     <string name="gaming_mode_enabled_title">启用游戏模式</string>
     <string name="gaming_mode_disable_auto_brightness_title">停用自动亮度</string>
